@@ -1,24 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <meta name="description" content="Explore meu portfólio de desenvolvimento front-end e mergulhe na experiência visual que posso criar.">
+    <link rel="stylesheet" href="css/nav-list.css">
+    <meta name="description"
+        content="Explore meu portfólio de desenvolvimento front-end e mergulhe na experiência visual que posso criar.">
     <title>Paulo Adson</title>
-    
+
 </head>
+
 <body>
-    <header>
-        <div>
-            <img src="img/code.png" alt="logo code">
-            <p>Paulo Adson / Desenvolvedor Front-End</p>
-        </div>
+    <header class="menu-principal">
 
         <nav>
-            <a href="#sobre">Sobre Mim</a>
-            <a href="#projetos">Projetos</a>
-            <a href="#contatos">Contatos</a>
+
+            <div class="logo">
+                <a href="index.html"><img src="img/code.png" alt="logo code" width="81" height="81"></a>
+                <a class="logo-name" href="index.html">Paulo Adson / Desenvolvedor Front-End</a>
+            </div>
+
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+
+            <ul class="nav-list">
+                <li><a class="menu-links" href="#sobre">Sobre Mim</a></li>
+                <li><a class="menu-links" href="#projetos">Projetos</a></li>
+                <li><a class="menu-links" href="#contatos">Contatos</a></li>
+            </ul>
         </nav>
     </header>
 
@@ -37,12 +51,33 @@
                 <div>
                     <h2>Olá</h2>
                     <p>
-                        Sou um Desenvolvedor Front-End apaixonado por transformar concei tos em experiências visuais incríveis. Minha abordagem une habilidades técnicas sólidas
-                        com um toque de criatividade, resultando em projetos envolventes e intuitivos. Estou constantemente em busca de novas oportunidades para aprimorar minhas habilidades e enfrentar desafios estimulantes. No momento, estou imerso nos estudos de Java Script, buscando expandir meu conhecimento e contribuir para projetos inovadores.
+                        Sou um Desenvolvedor Front-End apaixonado por transformar concei tos em experiências visuais
+                        incríveis. Minha abordagem une habilidades técnicas sólidas
+                        com um toque de criatividade, resultando em projetos envolventes e intuitivos. Estou
+                        constantemente em busca de novas oportunidades para aprimorar minhas habilidades e enfrentar
+                        desafios estimulantes. No momento, estou imerso nos estudos de Java Script, buscando expandir
+                        meu conhecimento e contribuir para projetos inovadores.
                     </p>
                 </div>
             </div>
         </section>
+
+        <section>
+            <h2>Projetos</h2>
+            <div>
+                <div class="container-projetos">
+                    <img src="img/calculadora-black.png" alt="">
+                    <div>
+                        <p>Calculadora</p>
+                        <a href="">Ver Projeto</a>
+                    </div>
+                </div>
+                <div class="container-projetos"></div>
+            </div>
+        </section>
     </main>
+
+    <script src="mobile-navbar.js"></script>
 </body>
+
 </html>
