@@ -7,6 +7,11 @@ header {
     align-items: center;
 }
 
+.img-logo {
+    width: 4rem;
+    height: 4rem;
+}
+
 .logo-name {
     color: var(--preto);
     font-size: 1rem;
@@ -61,11 +66,21 @@ nav {
     }
 
     header {
-        margin-bottom: 62px;
+        margin-bottom: 3rem;
     }
 
     nav {
-        height: 101px;
+        height: 80px;
+    }
+
+    .img-logo {
+
+        width: 3rem;
+        height: 3rem;
+    }
+    .logo-name {
+        color: var(--preto);
+        font-size: 0.8rem;
     }
 
     .nav-list {
@@ -80,6 +95,7 @@ nav {
         justify-content: space-around;
         transform: translateX(100%);
         transition: transform 0.3s ease-in;
+        display: none;
     }
 
     .nav-list li {
@@ -93,6 +109,7 @@ nav {
 }
 
 .nav-list.active {
+    display: flex;
     transform: translateX(0);
     z-index: 10;
 }
