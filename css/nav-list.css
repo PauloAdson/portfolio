@@ -9,7 +9,7 @@ header {
 
 .logo-name {
     color: var(--preto);
-    text-transform: uppercase;
+    font-size: 1.1rem;
 }
 
 .menu-links {
@@ -29,18 +29,17 @@ nav {
     justify-content: space-around;
     align-items: center;
     background-color: var(--cinza-claro);
-    height: 97px;
+    height: 80px;
 }
 
 .nav-list {
     list-style: none;
     display: flex;
-    text-transform: uppercase;
 }
 
 .nav-list li {
-    margin-left: 24px;
-    font-size: 1em;
+    margin-left: 32px;
+    font-size: 1.1rem;
 }
 
 .mobile-menu {
@@ -59,6 +58,10 @@ nav {
 @media screen and (max-width: 999px) {
     body {
         overflow-x: hidden;
+    }
+
+    nav {
+        height: 101px;
     }
 
     .nav-list {

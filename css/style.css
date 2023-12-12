@@ -14,9 +14,12 @@
 }
 
 body {
-  font-family: 'Yanone Kaffeesatz', sans-serif;
-  ;
+  font-family: 'Inria Sans', sans-serif;
   font-size: 100%;
+}
+
+.uppercase {
+  text-transform: uppercase;
 }
 
 .sobre-mim {
@@ -28,22 +31,27 @@ body {
 .background-sobre {
   background: var(--cinza-claro);
   position: relative;
-  width: 320px;
-  height: 533px;
+  width: 20rem;
+  height: 33.3125rem;
   text-align: center;
   margin-right: 30px;
   box-shadow: -12px 12px 20px 0px rgba(0, 0, 0, 0.20);
 }
-
 
 .foto-de-paulo {
   margin-top: 40px;
   margin-bottom: 49px;
 }
 
-.p-bold {
+.bold {
   font-weight: 700;
   font-size: 16px;
+}
+
+.logos-linguagens {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 9px;
 }
 
 .links-sociais {
@@ -58,5 +66,39 @@ body {
 }
 
 .texto-sobre {
-  width: 320px;
+  width: 25rem;
+  height: 33.3125rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+div.texto-sobre p {
+  text-align: justify;
+  margin-top: 4px;
+  font-size: 1.1rem;
+}
+
+@media screen and (max-width: 999px) {
+.sobre-mim {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.background-sobre {
+  margin: 0 auto;
+}
+
+.texto-sobre {
+  margin-top: -100px;
+  text-align: center;
+}
+
+div.texto-sobre p {
+  text-align: center;
+  margin-top: 4px;
+  font-size: 1.1rem;
+}
 }
