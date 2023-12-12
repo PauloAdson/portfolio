@@ -76,7 +76,7 @@ body {
 div.texto-sobre p {
   text-align: justify;
   margin-top: 4px;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 @media screen and (max-width: 999px) {
@@ -99,6 +99,6 @@ div.texto-sobre p {
 div.texto-sobre p {
   text-align: center;
   margin-top: 4px;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 }
