@@ -60,6 +60,10 @@ nav {
         overflow-x: hidden;
     }
 
+    header {
+        margin-bottom: 62px;
+    }
+
     nav {
         height: 101px;
     }
