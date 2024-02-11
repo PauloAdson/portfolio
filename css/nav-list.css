@@ -69,7 +69,7 @@ nav {
 
 @media screen and (min-width: 360px) and (max-width: 413px) {
     .nav-list {
-        top: 8vh;
+        top: 9vh;
     }
 }
 
