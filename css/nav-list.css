@@ -60,7 +60,21 @@ nav {
     background-color: var(--preto);
 }
 
-@media screen and (max-width: 999px) {
+@media screen and (max-width: 767px) {
+    .nav-list {
+        top: 6vh;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 999px) {
+    .nav-list {
+        top: 6vh;
+    }
+}
+
+
+
+@media screen and (max-width: 999px){
     body {
         overflow-x: hidden;
     }
@@ -85,7 +99,6 @@ nav {
 
     .nav-list {
         position: absolute;
-        top: 6vh; /*Antes era 8vh*/
         right: 0;
         width: 50vw;
         height: 92vh;
