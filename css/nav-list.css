@@ -60,12 +60,14 @@ nav {
     background-color: var(--preto);
 }
 
+/* Para Smartphones */
 @media screen and (max-width: 767px) {
     .nav-list {
-        top: 6vh;
+        top: 8vh;
     }
 }
 
+/* Para Tablets */
 @media screen and (min-width: 768px) and (max-width: 999px) {
     .nav-list {
         top: 6vh;
