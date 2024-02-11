@@ -85,7 +85,7 @@ nav {
 
     .nav-list {
         position: absolute;
-        top: 8vh;
+        top: 6vh; /*Antes era 8vh*/
         right: 0;
         width: 50vw;
         height: 92vh;
