@@ -61,11 +61,18 @@ nav {
 }
 
 /* Para Smartphones */
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 413px) {
+    .nav-list {
+        top: 12vh;
+    }
+}
+
+@media screen and (min-width:414px) and (max-width: 767px) {
     .nav-list {
         top: 8vh;
     }
 }
+
 
 /* Para Tablets */
 @media screen and (min-width: 768px) and (max-width: 999px) {
@@ -73,8 +80,6 @@ nav {
         top: 6vh;
     }
 }
-
-
 
 @media screen and (max-width: 999px){
     body {
@@ -102,8 +107,8 @@ nav {
     .nav-list {
         position: absolute;
         right: 0;
-        width: 50vw;
         height: 92vh;
+        width: 50vw;
         background: var(--cinza-claro);
         flex-direction: column;
         align-items: center;
