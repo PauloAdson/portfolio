@@ -1,0 +1,27 @@
+@media screen and (max-width: 999px) {
+    .sobre-mim {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  
+    }
+  
+  
+    .background-sobre {
+      margin: 0 auto;
+    }
+  
+    .texto-sobre {
+      margin-top: -100px;
+      text-align: center;
+      width: 20rem;
+      height: 33.3125rem;
+  
+    }
+  
+    div.texto-sobre p {
+      text-align: center;
+      margin-top: 4px;
+  
+    }
+  }
