@@ -4,11 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/nav-list.css">
+    <link rel="stylesheet" href="css/vars.css">
+    <link rel="stylesheet" href="css/media-query.css">
     <meta name="description"
         content="Explore meu portfólio de desenvolvimento Front-End e mergulhe na experiência visual que posso criar.">
-        <link rel="icon" href="./img/logo-icon.png">
+    <link rel="icon" href="./img/logo-icon.png">
     <title>Paulo Adson</title>
 
 </head>
@@ -17,16 +20,16 @@
     <header class="menu-principal">
 
         <nav>
-                <div class="logo">
-                    <a href="index.html"><img class="img-logo" src="img/code.png" alt="logo code"></a>
-                    <a class="logo-name uppercase" href="index.html">Paulo Adson / Desenvolvedor Front-End</a>
-                </div>
-                
-                <div class="mobile-menu">
-                    <div class="line1"></div>
-                    <div class="line2"></div>
-                    <div class="line3"></div>
-                </div>
+            <div class="logo">
+                <a href="index.html"><img class="img-logo" src="img/logo-icon-cinza.png" alt="logo code"></a>
+                <a class="logo-name uppercase" href="index.html">Paulo Adson / Desenvolvedor Front-End</a>
+            </div>
+
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
 
             <ul class="nav-list uppercase">
                 <li><a class="menu-links" href="#sobre">Sobre Mim</a></li>
@@ -59,8 +62,8 @@
                 </div>
             </div>
 
-            <div class="texto-sobre">
-                <h2 id="sobre">Olá</h2>
+            <div id="sobre" class="texto-sobre">
+                <h2>Olá</h2>
                 <p>
                     Sou um Desenvolvedor Front-End apaixonado por transformar conceitos em experiências visuais
                     incríveis. Minha abordagem une habilidades técnicas sólidas
@@ -72,17 +75,41 @@
             </div>
         </section>
 
-        <section>
-            <h2 id="projetos">Projetos</h2>
-            <div>
+        <h2 class="titulo-projetos">Projetos</h2>
+        <section class="section-projetos">
+            <div class="projetos">
                 <div class="container-projetos">
-                    <!-- <img src="img/calculadora-black.png" alt="" width="500">
-                    <div> -->
+                    <div class="img-info-calculadora"></div>
+                    <div class="info-projetos">
                         <p>Calculadora</p>
-                        <a href="https://www.instagram.com/reels/CzrkADlICVi/" target="_blank">Ver Projeto</a>
+                        <button><a href="https://www.instagram.com/reels/CzrkADlICVi/">Ver Projeto</a></button>
                     </div>
                 </div>
-                <div class="container-projetos"></div>
+
+                <div class="container-projetos">
+                    <div class="img-info-relogio-e-cronometro"></div>
+                    <div class="info-projetos">
+                        <p>Relógio e Cronômetro</p>
+                        <button><a href="https://www.instagram.com/reels/CzrkADlICVi/">Ver Projeto</a></button>
+                    </div>
+                </div>
+
+                <div class="container-projetos">
+                    <div class="img-info-to-do-list"></div>
+                    <div class="info-projetos">
+                        <p>Lista de Tarefas</p>
+                        <button><a href="https://www.instagram.com/reels/CzrkADlICVi/">Ver Projeto</a></button>
+                    </div>
+                </div>
+
+                <div class="container-projetos">
+                    <div class="img-info-petlife"></div>
+                    <div class="info-projetos">
+                        <p>Clínica Petlife</p>
+                        <button><a href="https://www.instagram.com/reels/CzrkADlICVi/">Ver Projeto</a></button>
+                    </div>
+                </div>
+            </div>
             </div>
         </section>
     </main>
