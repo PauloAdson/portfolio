@@ -1,5 +1,5 @@
 header {
-    margin-bottom: 132px;
+    margin-bottom: 1rem;
 }
 
 .logo {
@@ -7,18 +7,19 @@ header {
     align-items: center;
 }
 
-.img-logo {
-    width: 4rem;
-    height: 4rem;
+header nav div .img-logo {
+    width: 3rem;
+    margin-right: 8px;
 }
 
 .logo-name {
-    color: var(--preto);
-    font-size: 1rem;
+    color: var(--branco);
 }
 
+
 .menu-links {
-    color: var(--preto);
+    color: var(--branco);
+    font-weight: 500;
     text-decoration: none;
     transition: 0.3s;
 }
@@ -27,13 +28,13 @@ header {
     opacity: 0.7;
 }
 
-nav {
+header nav {
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background-color: var(--cinza-claro);
+    background-color: var(--bg-principal);
     height: 80px;
 }
 
@@ -57,7 +58,7 @@ nav {
     height: 2px;
     margin: 8px;
     transition: 0.3s;
-    background-color: var(--preto);
+    background-color: var(--branco);
 }
 
 /* Para Smartphones */
@@ -79,6 +80,12 @@ nav {
     }
 }
 
+@media screen and (min-width:320px) and (max-width: 767px) {
+    .img-logo {
+        display: none;
+    }
+}
+
 
 /* Para Tablets */
 @media screen and (min-width: 768px) and (max-width: 999px) {
@@ -87,13 +94,13 @@ nav {
     }
 }
 
-@media screen and (max-width: 999px){
+@media screen and (max-width: 999px) {
     body {
         overflow-x: hidden;
     }
 
     header {
-        margin-bottom: 3rem;
+        margin-bottom: 1rem;
     }
 
     nav {
@@ -105,17 +112,13 @@ nav {
         width: 3rem;
         height: 3rem;
     }
-    .logo-name {
-        color: var(--preto);
-        font-size: 0.8rem;
-    }
 
     .nav-list {
         position: absolute;
         right: 0;
-        height: 92vh;
+        height: 94vh;
         width: 50vw;
-        background: var(--cinza-claro);
+        background: var(--bg-principal);
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
@@ -132,16 +135,17 @@ nav {
     .mobile-menu {
         display: block;
     }
+
     @keyframes navLinkFade {
         from {
             opacity: 0;
             transform: translateX(50px);
         }
-    
+
         to {
             opacity: 1;
             transform: translateX(0px);
-            
+
         }
     }
 
@@ -152,8 +156,6 @@ nav {
     transform: translateX(0);
     z-index: 10;
 }
-
-
 
 .mobile-menu.active .line1 {
     transform: rotate(-45deg) translate(-8px, 8px);
