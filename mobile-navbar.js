@@ -27,7 +27,7 @@
 //         if (this.navList.classList.contains(this.activeClass)) {
 //             this.handleToggle();
 //         }
-        
+
 //     } // Termina aqui
 
 //     handleDocumentClick(event) {
@@ -119,7 +119,7 @@ class MobileNavbar {
         if (this.navList.classList.contains(this.activeClass)) {
             this.handleToggle();
         }
-        
+
     } // Termina aqui
 
     handleDocumentClick(event) {
@@ -130,14 +130,14 @@ class MobileNavbar {
             this.animateLinks();
         }
     }
-    
+
 
 
     animateLinks() {
         this.navLinks.forEach((link, index) => {
             link.style.animation
-            ? (link.style.animation = "")
-            : (link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.3}s`);
+                ? (link.style.animation = "")
+                : (link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.3}s`);
         });
     }
 
