@@ -1,10 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:wght@400;700&family=Montserrat:ital,wght@0,400;0,500;0,600;0,800;1,600&family=Roboto:wght@300;700&family=Yanone+Kaffeesatz:wght@300;400&display=swap');
-
-:root {
-  --preto: #000000;
-  --cinza-claro: #D9D9D9;
-  --branco: #FFFFFF;
-}
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
 * {
   margin: 0;
@@ -14,22 +8,31 @@
 }
 
 body {
-  font-family: 'Inria Sans', sans-serif;
   font-size: 100%;
+}
+
+main {
+  width: 90%;
+  margin: 0 auto;
 }
 
 .uppercase {
   text-transform: uppercase;
 }
 
+.background-sobre .uppercase {
+  color: var(--branco);
+}
+
 .sobre-mim {
   position: relative;
   display: flex;
   justify-content: center;
+  margin-bottom: 132px;
 }
 
 .background-sobre {
-  background: var(--cinza-claro);
+  background: var(--bg-principal);
   position: relative;
   width: 20rem;
   height: 33.3125rem;
@@ -46,12 +49,18 @@ body {
 .bold {
   font-weight: 700;
   font-size: 16px;
+  color: var(--branco);
 }
 
 .logos-linguagens {
   display: flex;
   justify-content: space-evenly;
+  background-color: var(--branco);
+  padding: 8px 0;
   margin-top: 9px;
+  margin-left: 24px;
+  margin-right: 24px;
+  border-radius: 16px;
 }
 
 .links-sociais {
@@ -73,36 +82,115 @@ body {
   flex-direction: column;
 }
 
+.texto-sobre h2 {
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
 div.texto-sobre p {
   text-align: justify;
-  margin-top: 4px;
   font-size: 1rem;
+  line-height: 22px;
 }
 
-@media screen and (max-width: 999px) {
-.sobre-mim {
+section .projetos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  
+  width: 100%;
+  gap: 10px;
+}
+
+.container-projetos {
+  overflow: hidden;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  align-items: flex-end;
+  position: relative;
+
+  width: 312px;
+  height: 298px;
+  border-radius: 1.875rem;
+  border: 1px solid var(--branco);
+
+}
+
+.titulo-projetos {
+  text-align: center;
+  font-size: 20px;
+}
+
+.section-projetos {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+  margin-bottom: 24px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1300px;
+}
+
+.info-projetos {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: var(--bg-principal);
+  text-align: center;
+  justify-content: center;
+  height: 5.30rem;
+  width: 100%;
+}
+
+.img-info-calculadora {
+  height: 100%;
+  width: 100%;
+  background-image: url(/img/calculadora-black.png);
+  background-size: cover;
+  background-position: top center;
+  margin-bottom: 42px;
+}
+
+.img-info-relogio-e-cronometro {
+  height: 100%;
+  width: 100%;
+  background-image: url(/img/bg-relogio-e-cronometro.png);
+  background-size: cover;
+  background-position: top center;
+  margin-bottom: 42px;
+}
+
+.img-info-to-do-list {
+  height: 100%;
+  width: 100%;
+  background-image: url(/img/bg-to-do-list.png);
+  background-size: cover;
+  background-position: top center;
   
 }
 
-
-.background-sobre {
-  margin: 0 auto;
+.img-info-petlife {
+  height: 100%;
+  width: 100%;
+  background-image: url(/img/bg-petlife.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top center;
+  margin-bottom: 1px;
 }
 
-.texto-sobre {
-  margin-top: -100px;
-  text-align: center;
-  width: 20rem;
-  height: 33.3125rem;
 
+
+.info-projetos p {
+  margin: 12px;
+  color: var(--branco);
 }
 
-div.texto-sobre p {
-  text-align: center;
-  margin-top: 4px;
-  
+.info-projetos button {
+  background-color: var(--branco);
+  border: transparent solid 1px;
+  padding: 8px 10px;
+  border-radius: 10px;
 }
+
+.info-projetos a {
+  color: var(--preto);
 }
