@@ -96,7 +96,7 @@ div.texto-sobre p {
 section .projetos {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  
+
   width: 100%;
   gap: 10px;
 }
@@ -164,7 +164,7 @@ section .projetos {
   background-image: url(/img/bg-to-do-list.png);
   background-size: cover;
   background-position: top center;
-  
+
 }
 
 .img-info-petlife {
