@@ -92,7 +92,7 @@ header nav {
     .nav-list {
         top: 6vh;
     }
-}
+} 
 
 @media screen and (max-width: 999px) {
     body {
