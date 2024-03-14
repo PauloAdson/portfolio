@@ -1,4 +1,5 @@
-@media screen and (max-width: 999px) {
+/* Smartphones */
+@media screen and (min-width:320px) and (max-width: 767px) {
   .sobre-mim {
     display: flex;
     flex-direction: column;
@@ -6,7 +7,6 @@
     margin-bottom: 0;
 
   }
-
 
   .background-sobre {
     margin: 0 auto;
@@ -27,6 +27,43 @@
 
   section .projetos {
     grid-template-columns: 1fr;
+  }
+
+  .container-projetos {
+    margin: 0 auto;
+  }
+}
+
+/* Tablets */
+@media screen and (min-width: 768px) and (max-width: 999px) {
+  .sobre-mim {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0;
+
+  }
+
+
+  .background-sobre {
+    margin: 0 auto;
+  }
+
+  section .texto-sobre {
+    text-align: center;
+    width: 90%;
+    height: 20rem;
+
+  }
+
+  div.texto-sobre p {
+    text-align: center;
+    margin-top: 4px;
+
+  }
+
+  section .projetos {
+    grid-template-columns: 1fr 1fr;
   }
 
   .container-projetos {
