@@ -195,3 +195,24 @@ section .projetos {
 .info-projetos a {
   color: var(--preto);
 }
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bg-principal);
+  height: 4rem;
+}
+
+footer p {
+  color: var(--branco);
+}
+
+footer a {
+  color: #4cc2e6;
+}
+
+footer a:hover {
+  color: #93d1e4;
+  opacity: 0.9;
+}
