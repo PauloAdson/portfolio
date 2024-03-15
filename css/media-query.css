@@ -14,7 +14,7 @@
 
   section .texto-sobre {
     text-align: center;
-    width: 90%;
+    width: 99%;
     height: 25rem;
 
   }
@@ -27,6 +27,14 @@
 
   section .projetos {
     grid-template-columns: 1fr;
+  }
+
+  .titulo-projetos {
+    margin-bottom: 1rem;
+  }
+
+  .section-projetos {
+    margin-bottom: 3rem;
   }
 
   .container-projetos {
