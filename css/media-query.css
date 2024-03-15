@@ -40,6 +40,10 @@
   .container-projetos {
     margin: 0 auto;
   }
+
+  .container-btn {
+    margin-top: 1.5rem;
+  }
 }
 
 /* Tablets */
