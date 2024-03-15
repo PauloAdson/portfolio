@@ -12,7 +12,6 @@ body {
 }
 
 main {
-  width: 90%;
   margin: 0 auto;
 }
 
@@ -189,11 +188,16 @@ section .projetos {
   color: var(--branco);
 }
 
-.info-projetos button {
+.info-projetos .btn-projetos {
   background-color: var(--branco);
   border: transparent solid 1px;
   padding: 8px 10px;
   border-radius: 10px;
+}
+
+.info-projetos .btn-projetos:hover {
+  padding: 8.5px 10.5px;
+  
 }
 
 .info-projetos a {
@@ -207,8 +211,13 @@ section .projetos {
 }
 
 div .btn-mais-projetos {
+
+  display: flex;
+  justify-content: center;
   background-color: var(--bg-principal);
+  color: var(--branco);
   border: transparent solid 1px;
+  width: 296px;
   padding: 18px 32px;
   border-radius: 10px;
 }
