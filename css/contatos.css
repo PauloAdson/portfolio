@@ -80,6 +80,64 @@ form button {
 }
 
 form button:hover {
-   background-color: var(--branco);
-   color: var(--preto);
+    background-color: var(--branco);
+    color: var(--preto);
+}
+
+.obrigado-main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */
+    position: relative;
+}
+
+.footer-obrigado {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.content-obrigado {
+    background-color: var(--bg-principal);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 20rem;
+    width: 20rem;
+    border-radius: 12px;
+}
+.h1-obrigado {
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.h1-obrigado, .p-obrigado {
+    color: var(--branco);
+}
+
+.p-obrigado {
+    margin-bottom: 32px;
+}
+
+.btn-voltar-ao-inicio {
+    background: transparent;
+    color: var(--branco);
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid var(--branco);
+    border-radius: 16px;
+    margin-bottom: 20px;
+    transition: 0.5s;
+}
+
+.btn-voltar-ao-inicio:hover {
+    background-color: var(--branco);
+    color: var(--preto);
 }
