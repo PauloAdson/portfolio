@@ -184,7 +184,6 @@ section .projetos {
 
 .info-projetos .btn-projetos:hover {
   padding: 8.5px 10.5px;
-  
 }
 
 .info-projetos a {
@@ -215,24 +214,4 @@ div .btn-mais-projetos:hover {
 
 div .btn-mais-projetos a {
   color: var(--branco);
-}
-
-footer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: var(--bg-principal);
-  height: 4rem;
-}
-
-footer p {
-  color: var(--branco);
-}
-
-footer a {
-  color: var(--secudanry);
-}
-
-footer a:hover {
-  opacity: 0.9;
 }
