@@ -16,6 +16,9 @@ header nav div .img-logo {
     color: var(--branco);
 }
 
+.uppercase {
+    text-transform: uppercase;
+}
 
 .menu-links {
     color: var(--branco);
@@ -105,6 +108,7 @@ header nav {
         top: 6vh;
     }
 }
+
 /*  */
 
 
