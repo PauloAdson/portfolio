@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/vars.css">
     <link rel="stylesheet" href="css/nav-list.css">
     <link rel="stylesheet" href="css/contatos.css">
+    <link rel="stylesheet" href="css/footer.css">
     <!-- <link rel="stylesheet" href="css/style.css"> -->
     <title>Contatos</title>
 </head>
@@ -29,10 +30,10 @@
             </div>
 
             <ul class="nav-list uppercase">
-                <li><a class="menu-links" href="index.html">Home</a></li>
+                <li><a class="menu-links" href="https://pauloadson-portfolio.vercel.app/">Home</a></li>
                 <li><a class="menu-links" href="#sobre">Sobre Mim</a></li>
                 <li><a class="menu-links" href="#projetos">Projetos</a></li>
-                <li><a class="menu-links" href="#contatos">Contatos</a></li>
+                <li><a class="menu-links" href="contatos.html">Contatos</a></li>
             </ul>
         </nav>
     </header>
@@ -41,19 +42,22 @@
             <h2>Contato</h2>
             <form action="https://api.staticforms.xyz/submit" method="post">
                 <label>Nome</label>
-                <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off">
+                <input required type="text" name="name" placeholder="Digite seu nome" autocomplete="off">
                 <label>Email</label>
-                <input type="text" name="email" placeholder="Digite seu email" autocomplete="on">
+                <input required type="text" name="email" placeholder="Digite seu email" autocomplete="on">
                 <label>Mensagem</label>
                 <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
                 <button type="submit">Enviar</button>
 
                 <input type="hidden" name="accessKey" value="01417344-2dc6-4a48-95e0-384f4d9d904d">
-                <input type="hidden" name="redirectTo" value="http://127.0.0.1:3000/obrigado.html">
+                <input type="hidden" name="redirectTo" value="obrigado.html">
             </form>
         </section>
     </main>
 
+    <footer>
+        <p>Desenvolvido por <a href="mailto:paulo.alves200581@gmail.com">Paulo Adson</a></p>
+    </footer>
     <script src="mobile-navbar.js"></script>
 </body>
 
