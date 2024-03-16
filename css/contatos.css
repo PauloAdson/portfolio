@@ -1,0 +1,85 @@
+body {
+    width: 100%;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 70vh;
+    margin-bottom: 6rem;
+}
+
+section {
+    background-color: var(--bg-principal);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 45px;
+    width: 500px;
+    border-radius: 16px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+section h2 {
+    color: var(--branco);
+    font-size: 24px;
+    margin: 2rem;
+}
+
+section form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+form label {
+    font-size: 17px;
+    margin-bottom: 4px;
+    color: var(--branco);
+}
+
+form input {
+    padding: 16px;
+    outline: none;
+    border: 0;
+    border-radius: 16px;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+form input:focus {
+    background-color: #f1f1f1;
+}
+
+form textarea {
+    padding: 10px;
+    outline: none;
+    border: 0;
+    border-radius: 16px;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+form textarea:focus {
+    background-color: #e6e4e4;
+}
+
+form button {
+    background: transparent;
+    color: var(--branco);
+    padding: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid var(--branco);
+    border-radius: 16px;
+    margin-bottom: 20px;
+    transition: 0.5s;
+}
+
+form button:hover {
+   background-color: var(--branco);
+   color: var(--preto);
+}

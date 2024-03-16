@@ -1,11 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logo-icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/vars.css">
+    <link rel="stylesheet" href="css/nav-list.css">
+    <link rel="stylesheet" href="css/contatos.css">
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
     <title>Contatos</title>
 </head>
+
 <body>
-    
+    <header class="menu-principal">
+
+        <nav>
+            <div class="logo">
+                <a href="index.html"><img class="img-logo" src="img/logo-icon-cinza.png" alt="logo code"></a>
+                <a class="logo-name uppercase" href="index.html">Paulo Adson / Desenvolvedor Front-End</a>
+            </div>
+
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+
+            <ul class="nav-list uppercase">
+                <li><a class="menu-links" href="index.html">Home</a></li>
+                <li><a class="menu-links" href="#sobre">Sobre Mim</a></li>
+                <li><a class="menu-links" href="#projetos">Projetos</a></li>
+                <li><a class="menu-links" href="#contatos">Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Contato</h2>
+            <form action="https://api.staticforms.xyz/submit" method="post">
+                <label>Nome</label>
+                <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off">
+                <label>Email</label>
+                <input type="text" name="email" placeholder="Digite seu email" autocomplete="on">
+                <label>Mensagem</label>
+                <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
+                <button type="submit">Enviar</button>
+
+                <input type="hidden" name="accessKey" value="01417344-2dc6-4a48-95e0-384f4d9d904d">
+                <input type="hidden" name="redirectTo" value="http://127.0.0.1:3000/obrigado.html">
+            </form>
+        </section>
+    </main>
+
+    <script src="mobile-navbar.js"></script>
 </body>
+
 </html>
