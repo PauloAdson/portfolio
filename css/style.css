@@ -134,7 +134,7 @@ section .projetos {
 .img-info-calculadora {
   height: 100%;
   width: 100%;
-  background-image: url(/img/calculadora-black.png);
+  background-image: url(https://github.com/PauloAdson/portfolio/blob/main/img/bg-calculadora.png);
   background-size: cover;
   background-position: top center;
   margin-bottom: 42px;
@@ -143,7 +143,7 @@ section .projetos {
 .img-info-relogio-e-cronometro {
   height: 100%;
   width: 100%;
-  background-image: url(/img/bg-relogio-e-cronometro.png);
+  background-image: url(https://github.com/PauloAdson/portfolio/blob/main/img/bg-relogio-e-cronometro.png);
   background-size: cover;
   background-position: top center;
   margin-bottom: 42px;
@@ -152,7 +152,7 @@ section .projetos {
 .img-info-to-do-list {
   height: 100%;
   width: 100%;
-  background-image: url(/img/bg-to-do-list.png);
+  background-image: url(https://github.com/PauloAdson/portfolio/blob/main/img/bg-to-do-list.png);
   background-size: cover;
   background-position: top center;
 
@@ -161,7 +161,7 @@ section .projetos {
 .img-info-petlife {
   height: 100%;
   width: 100%;
-  background-image: url(/img/bg-petlife.png);
+  background-image: url(https://github.com/PauloAdson/portfolio/blob/main/img/bg-petlife.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: top center;
