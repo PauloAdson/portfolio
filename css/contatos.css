@@ -84,18 +84,19 @@ form button:hover {
     color: var(--preto);
 }
 
-.obrigado-main {
-    height: 100vh;
+main {
+    height: 80vh;
     display: flex;
     align-items: center;
     justify-content: center;
     /* background-color: aqua; */
-    position: relative;
+
 }
 
-.footer-obrigado {
-    position: fixed;
+footer {
+
     bottom: 0;
+    left: 0;
     width: 100%;
 }
 

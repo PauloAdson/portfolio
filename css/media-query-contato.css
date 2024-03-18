@@ -1,0 +1,23 @@
+@media screen and (max-width: 999px) {
+
+}
+
+/* Smartphones */
+@media screen and (min-width:320px) and (max-width: 767px) {
+    main {
+        margin-top: 4.5rem;
+       height:80vh
+    }
+
+    section {
+        width: auto;
+        padding: 10px 20px;
+    }
+}
+
+/* Tablets */
+@media screen and (min-width: 768px) and (max-width: 999px) {
+    main {
+        height: 80vh;
+    }
+}
