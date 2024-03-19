@@ -12,22 +12,37 @@
     margin: 0 auto;
   }
 
+  .bold {
+    font-size: 18px;
+  }
+
+  .background-sobre .text-uppercase {
+    font-size: 18px;
+  }
+
   section .texto-sobre {
     text-align: center;
     width: 90%;
-    height: 25rem;
+    height: 23rem;
 
   }
 
   div.texto-sobre p {
     text-align: center;
     margin-top: 4px;
-
-
+    font-size: 18px;
   }
 
   section .projetos {
     grid-template-columns: 1fr;
+  }
+
+  section .projetos button {
+    font-size: 14px;
+  }
+
+  section .projetos p {
+    font-size: 18px;
   }
 
   .titulo-projetos {
