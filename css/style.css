@@ -25,7 +25,7 @@ main {
   background: var(--bg-principal);
   position: relative;
   width: 20rem;
-  height: 33.3125rem;
+  height: 532px;
   text-align: center;
   margin-right: 30px;
   box-shadow: -12px 12px 20px 0px rgba(0, 0, 0, 0.20);
