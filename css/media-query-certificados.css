@@ -1,0 +1,12 @@
+@media screen and (min-width: 830px) and (max-width: 1290px) {
+    
+main .content__certificados  {
+    grid-template-columns: 1fr 1fr;
+}
+}
+
+@media screen and (max-width: 829px) {
+    main .content__certificados  {
+        grid-template-columns: 1fr;
+    }
+}
