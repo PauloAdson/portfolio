@@ -19,8 +19,12 @@ main .content__certificados  {
     }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (min-width: 300px) and (max-width: 429px) {
     main .content__certificados .certificado img {
-        width:300px
+        width: 90%;
+    }
+
+    .certificado {
+        width: 100%;
     }
 }
