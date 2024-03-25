@@ -1,8 +1,16 @@
+
+@media screen and (min-width: 2500px) {
+    main .content__certificados  {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+
 @media screen and (min-width: 830px) and (max-width: 1290px) {
     
 main .content__certificados  {
     grid-template-columns: 1fr 1fr;
 }
+
 }
 
 @media screen and (max-width: 829px) {
@@ -11,8 +19,8 @@ main .content__certificados  {
     }
 }
 
-@media screen and (min-width: 2500px) {
-    main .content__certificados  {
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+@media screen and (max-width: 360px) {
+    main .content__certificados .certificado img {
+        width:300px
     }
 }
