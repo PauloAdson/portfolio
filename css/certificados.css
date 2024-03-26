@@ -6,19 +6,20 @@ main {
     margin-bottom: 3rem;
 }
 
-main .content__certificados  {
+main .content__certificados {
     display: grid;
     width: 100%;
     grid-template-columns: 1fr 1fr 1fr;
     margin: 0 auto;
 }
 
-main .content__certificados .certificado{
+main .content__certificados .certificado {
     display: flex;
     margin-bottom: 12px;
     align-items: center;
     justify-content: center;
 }
+
 main .content__certificados .certificado img {
     width: 400px;
 }
@@ -27,4 +28,28 @@ main h1 {
     text-align: center;
     font-size: 24px;
     margin-bottom: 3rem;
+}
+
+main .container_top-down {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    top: 50%;
+    height: 80px;
+    width: 42px;
+    flex-direction: column;
+}
+
+.container_top-down .fa-solid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    background-color: var(--bg-principal);
+    border: 1px solid transparent;
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
 }

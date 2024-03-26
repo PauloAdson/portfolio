@@ -10,9 +10,10 @@
     <link rel="stylesheet" href="css/certificados.css">
     <link rel="stylesheet" href="css/media-query-certificados.css">
     <link rel="stylesheet" href="css/footer.css">
+    <script src="https://kit.fontawesome.com/36ae4e4b4f.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header class="menu-principal">
+    <header class="menu-principal" id="voltar-ao-topo">
 
         <nav>
             <div class="logo">
@@ -37,6 +38,10 @@
     </header>
 
     <main>
+        <div class="container_top-down">
+            <a href="#voltar-ao-topo" class="fa-solid fa-arrow-up fa-xl"></a>
+            <a href="#ir-ao-final" class="fa-solid fa-arrow-down fa-xl"></a>
+        </div>
         <h1>Meus Certificados</h1>
         <div class="content__certificados">
             <div class="certificado">
@@ -98,7 +103,7 @@
     </main>
 
     <footer>
-        <p>Desenvolvido por <a href="https://pauloadson.github.io/portfolio/">Paulo Adson</a></p>
+        <p id="ir-ao-final">Desenvolvido por <a href="https://pauloadson.github.io/portfolio/">Paulo Adson</a></p>
     </footer>
     <script src="mobile-navbar.js"></script>
 </body>
