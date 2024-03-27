@@ -40,6 +40,7 @@ main .container_top-down {
     bottom: 50%;
     height: 110px;
     width: 42px;
+    padding-right: 8px;
     flex-direction: column;
 }
 
