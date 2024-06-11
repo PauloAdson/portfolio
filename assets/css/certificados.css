@@ -38,8 +38,8 @@ main .container_top-down {
     right: 0;
     top: 50%;
     bottom: 50%;
-    height: 110px;
-    width: 42px;
+    height: 9rem;
+    width: 5.2rem;
     padding-right: 8px;
     flex-direction: column;
 }
@@ -51,7 +51,8 @@ main .container_top-down {
     color: #FFFFFF;
     background-color: var(--bg-principal);
     border: 1px solid transparent;
+    font-size: 2rem;
     border-radius: 50%;
-    height: 2.5rem;
-    width: 2.5rem;
+    height: 3.2rem;
+    width: 3.2rem;
 }
