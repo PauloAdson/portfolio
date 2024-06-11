@@ -11,7 +11,7 @@ main {
 }
 
 .background-sobre .bold {
-  margin-bottom: 8px;
+  margin-bottom: 0.8rem;
 }
 
 .sobre-mim {
@@ -27,18 +27,18 @@ main {
   width: 32rem;
   height: 53.2rem;
   text-align: center;
-  margin-right: 30px;
+  margin-right: 3rem;
   box-shadow: -12px 12px 20px 0px rgba(0, 0, 0, 0.20);
 }
 
 .foto-de-paulo {
-  margin-top: 40px;
-  margin-bottom: 49px;
+  margin-top: 4rem;
+  margin-bottom: 4.9rem;
 }
 
 .bold {
   font-weight: 700;
-  font-size: 16px;
+  font-size: 1.8rem;
   color: var(--branco);
 }
 
@@ -46,19 +46,19 @@ main {
   display: flex;
   justify-content: space-evenly;
   background-color: var(--branco);
-  padding: 8px 0;
-  margin-top: 9px;
-  margin-left: 24px;
-  margin-right: 24px;
-  border-radius: 16px;
+  padding: 0.8rem 0;
+  margin-top: 0.9rem;
+  margin-left: 2.4rem;
+  margin-right: 2.4rem;
+  border-radius: 1.6rem;
 }
 
 .links-sociais {
   background: var(--branco);
   position: absolute;
   bottom: 0;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   width: 100%;
   display: flex;
   justify-content: space-evenly;
@@ -73,24 +73,23 @@ main {
 }
 
 .texto-sobre h2 {
-  font-size: 24px;
-  margin-bottom: 12px;
+  font-size: 3.2rem;
+  margin-bottom: 1.2rem;
 }
 
 div.texto-sobre p {
   text-align: justify;
-  font-size: 1rem;
-  line-height: 22px;
+  line-height: 2.2rem;
 }
 
 section .projetos {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   width: 100%;
-  gap: 20px;
+  gap: 2rem;
 }
 
-section .projetos p{
+section .projetos p {
   font-weight: 600;
 }
 
@@ -100,17 +99,17 @@ section .projetos p{
   align-items: flex-end;
   position: relative;
 
-  width: 312px;
-  height: 298px;
+  width: 31.2rem;
+  height: 29.8rem;
   margin: 0 auto;
   border-radius: 1.875rem;
-  border: 1px solid var(--branco);
+  border: 0.1rem solid var(--branco);
 
 }
 
 .titulo-projetos {
   text-align: center;
-  font-size: 20px;
+  font-size: 3.2rem;
 }
 
 .section-projetos {
@@ -120,7 +119,7 @@ section .projetos p{
   margin-bottom: 6rem;
   margin-left: auto;
   margin-right: auto;
-  max-width: 1300px;
+  max-width: 130rem;
 }
 
 .info-projetos {
@@ -130,32 +129,32 @@ section .projetos p{
   background: var(--bg-principal);
   text-align: center;
   justify-content: center;
-  height: 5.30rem;
+  height: 9.30rem;
   width: 100%;
 }
 
 .img-info-calculadora {
   height: 100%;
   width: 100%;
-  background-image: url(https://raw.githubusercontent.com/PauloAdson/portfolio/main/img/bg-calculadora.png);
+  background-image: url(https://raw.githubusercontent.com/PauloAdson/portfolio/main/assets/img/bg-calculadora.png);
   background-size: cover;
   background-position: top center;
-  margin-bottom: 42px;
+  margin-bottom: 4.2rem;
 }
 
 .img-info-relogio-e-cronometro {
   height: 100%;
   width: 100%;
-  background-image: url(https://raw.githubusercontent.com/PauloAdson/portfolio/main/img/bg-relogio-e-cronometro.png);
+  background-image: url(https://raw.githubusercontent.com/PauloAdson/portfolio/main/assets/img/bg-relogio-e-cronometro.png);
   background-size: cover;
   background-position: top center;
-  margin-bottom: 42px;
+  margin-bottom: 4.2rem;
 }
 
 .img-info-to-do-list {
   height: 100%;
   width: 100%;
-  background-image: url(https://raw.githubusercontent.com/PauloAdson/portfolio/main/img/bg-to-do-list.png);
+  background-image: url(https://raw.githubusercontent.com/PauloAdson/portfolio/main/assets/img/bg-to-do-list.png);
   background-size: cover;
   background-position: top center;
 
@@ -164,29 +163,29 @@ section .projetos p{
 .img-info-petlife {
   height: 100%;
   width: 100%;
-  background-image: url(https://raw.githubusercontent.com/PauloAdson/portfolio/main/img/bg-petlife.png);
+  background-image: url(https://raw.githubusercontent.com/PauloAdson/portfolio/main/assets/img/bg-petlife.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: top center;
-  margin-bottom: 1px;
+  margin-bottom: 0.1rem;
 }
 
 
 
 .info-projetos p {
-  margin: 12px;
+  margin: 1.2rem;
   color: var(--branco);
 }
 
 .info-projetos .btn-projetos {
   background-color: var(--branco);
-  border: transparent solid 1px;
-  padding: 8px 10px;
-  border-radius: 10px;
+  border: transparent solid 0.1rem;
+  padding: 0.8rem 1rem;
+  border-radius: 1rem;
 }
 
 .info-projetos .btn-projetos:hover {
-  padding: 8.5px 10.5px;
+  padding: 0.85rem 1.5rem;
 }
 
 .info-projetos a {
@@ -200,15 +199,15 @@ section .projetos p{
 }
 
 div .btn-mais-projetos {
-
   display: flex;
   justify-content: center;
   background-color: var(--bg-principal);
   color: var(--branco);
-  border: transparent solid 1px;
-  width: 240px;
-  padding: 18px 32px;
-  border-radius: 10px;
+  border: transparent solid 0.1rem;
+  width: 24rem;
+  padding: 1.8rem 3.2rem;
+  border-radius: 1rem;
+  font-weight: 600;
 }
 
 div .btn-mais-projetos:hover {

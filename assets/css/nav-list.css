@@ -8,12 +8,13 @@ header {
 }
 
 header nav div .img-logo {
-    width: 3rem;
+    width: 5rem;
     margin-right: 8px;
 }
 
 .logo-name {
     color: var(--branco);
+    font-size: 1.6rem;
 }
 
 .uppercase {
@@ -25,6 +26,7 @@ header nav div .img-logo {
     font-weight: 500;
     text-decoration: none;
     transition: 0.3s;
+    font-size: 1.6rem;
 }
 
 .menu-links:hover {
