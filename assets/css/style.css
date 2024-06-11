@@ -24,8 +24,8 @@ main {
 .background-sobre {
   background: var(--bg-principal);
   position: relative;
-  width: 20rem;
-  height: 532px;
+  width: 32rem;
+  height: 53.2rem;
   text-align: center;
   margin-right: 30px;
   box-shadow: -12px 12px 20px 0px rgba(0, 0, 0, 0.20);
