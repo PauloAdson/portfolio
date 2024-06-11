@@ -29,7 +29,7 @@
 
   div.texto-sobre p {
     text-align: center;
-    margin-top: 4px;
+    margin-top: 0.4rem;
     font-size: 1.6rem;
   }
 
@@ -38,11 +38,11 @@
   }
 
   section .projetos button {
-    font-size: 14px;
+    font-size: 1.4rem;
   }
 
   section .projetos p {
-    font-size: 18px;
+    font-size: 1.8rem;
   }
 
   .titulo-projetos {
@@ -86,7 +86,7 @@
 
   div.texto-sobre p {
     text-align: center;
-    margin-top: 4px;
+    margin-top: 0.4rem;
 
   }
 
