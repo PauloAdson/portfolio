@@ -9,7 +9,7 @@ header {
 
 header nav div .img-logo {
     width: 5rem;
-    margin-right: 8px;
+    margin-right: 0.8rem;
 }
 
 .logo-name {
@@ -40,7 +40,7 @@ header nav {
     justify-content: space-around;
     align-items: center;
     background-color: var(--bg-principal);
-    height: 80px;
+    height: 8rem;
 }
 
 .nav-list {
@@ -49,7 +49,7 @@ header nav {
 }
 
 .nav-list li {
-    margin-left: 32px;
+    margin-left: 3.2rem;
     font-size: 1rem;
 }
 
@@ -59,9 +59,9 @@ header nav {
 }
 
 .mobile-menu div {
-    width: 32px;
-    height: 2px;
-    margin: 8px;
+    width: 3.2rem;
+    height: 0.2rem;
+    margin: 0.8rem;
     transition: 0.3s;
     background-color: var(--branco);
 }
@@ -93,12 +93,12 @@ header nav {
     }
 
     .logo-name {
-        font-size: 14px;
+        font-size: 1.4rem;
         font-weight: 600;
     }
 
     .menu-links {
-        font-size: 14px;
+        font-size: 1.4rem;
     }
 }
 
