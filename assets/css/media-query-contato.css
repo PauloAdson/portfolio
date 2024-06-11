@@ -9,7 +9,7 @@
 
     section {
         width: auto;
-        padding: 10px 20px;
+        padding: 1rem 2rem;
     }
 }
 
@@ -20,7 +20,7 @@
     }
 
     section {
-        padding: 10px;
+        padding: 1rem;
     }
 
 }
