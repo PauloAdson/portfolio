@@ -23,8 +23,7 @@
   section .texto-sobre {
     text-align: center;
     width: 90%;
-    height: 28rem;
-
+    height: 40rem;
   }
 
   div.texto-sobre p {
