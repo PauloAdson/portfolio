@@ -13,24 +13,24 @@
   }
 
   .bold {
-    font-size: 18px;
+    font-size: 1.8rem;
   }
 
   .background-sobre .text-uppercase {
-    font-size: 18px;
+    font-size: 1.8rem;
   }
 
   section .texto-sobre {
     text-align: center;
     width: 90%;
-    height: 23rem;
+    height: 28rem;
 
   }
 
   div.texto-sobre p {
     text-align: center;
     margin-top: 4px;
-    font-size: 18px;
+    font-size: 1.6rem;
   }
 
   section .projetos {
