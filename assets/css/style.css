@@ -82,12 +82,39 @@ div.texto-sobre p {
   line-height: 2.2rem;
 }
 
+.hover:hover {
+  color: var(--branco);
+}
+
 div.texto-sobre a.btn-curriculo {
   border: 1px solid var(--terciary);
+  border-radius: 2.6rem;
+  display: flex;
+  justify-content: space-between;
+  color: var(--preto);
+  font-weight: 600;
   width: 50%;
   margin-top: 1rem;
   padding: 1.8rem 3.2rem;
+  transition: 0.5s;
 }
+
+div.texto-sobre a.btn-curriculo:hover {
+  background-color: var(--bg-principal);
+  color: var(--branco);
+  transition: 0.5s;
+}
+
+.btn-curriculo:hover .fa-download {
+  color: var(--branco);
+  transition: 0.5s;
+}
+
+.fa-download {
+  color: var(--terciary);
+  transition: 0.5s;
+}
+
 
 section .projetos {
   display: grid;
@@ -213,7 +240,7 @@ div .btn-mais-projetos {
   border: transparent solid 0.1rem;
   width: 24rem;
   padding: 1.8rem 3.2rem;
-  border-radius: 1rem;
+  border-radius: 2.6rem;
   font-weight: 600;
 }
 

@@ -1,3 +1,10 @@
+@media screen and (max-width: 999px){
+  div.texto-sobre a.btn-curriculo {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 /* Smartphones */
 @media screen and (min-width:320px) and (max-width: 767px) {
   .sobre-mim {
@@ -71,7 +78,6 @@
 
   }
 
-
   .background-sobre {
     margin: 0 auto;
   }
@@ -79,7 +85,7 @@
   section .texto-sobre {
     text-align: center;
     width: 90%;
-    height: 20rem;
+    height: 30rem;
 
   }
 
