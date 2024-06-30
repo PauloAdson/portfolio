@@ -12,7 +12,6 @@ class MobileNavbar {
         this.handleDocumentClick = this.handleDocumentClick.bind(this);
     }
 
-
     // Fechar o menu através dos links
     handleToggle() {
         this.navList.classList.toggle(this.activeClass);
