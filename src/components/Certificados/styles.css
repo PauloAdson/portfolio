@@ -1,0 +1,39 @@
+body {
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.4rem;
+    margin-bottom: 3rem;
+}
+figure.certificado {
+
+}
+
+div.btn-top-down {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    top: 50%;
+    bottom: 50%;
+    height: 9rem;
+    width: 5.2rem;
+    padding-right: 8px;
+    flex-direction: column;
+}
+
+div.btn-top-down .fa-solid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    background-color: var(--bg-principal);
+    border: 1px solid transparent;
+    font-size: 2rem;
+    border-radius: 50%;
+    height: 3.2rem;
+    width: 3.2rem;
+}
