@@ -260,9 +260,7 @@ section .projetos p {
     background-image: url(https://raw.githubusercontent.com/PauloAdson/portfolio/main/src/assets/images/bg-to-do-list.png);
     background-size: cover;
     background-position: top center;
-
 }
-
 
 .info-projetos p {
     margin: 1.2rem;
@@ -300,7 +298,7 @@ div .btn-mais-projetos {
     padding: 1.8rem 3.2rem;
     border-radius: 2.6rem;
     font-weight: 600;
-  }
+}
 
 div .btn-mais-projetos:hover {
     background-color: var(--terciary);
