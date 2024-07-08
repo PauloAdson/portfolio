@@ -1,0 +1,322 @@
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+main {
+    margin: 0 auto;
+}
+
+.background-sobre .text-uppercase {
+    color: var(--branco);
+}
+
+.background-sobre .bold {
+    margin-bottom: 0.8rem;
+}
+
+.sobre-mim {
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0 1rem;
+    justify-content: center;
+    margin-bottom: 6rem;
+}
+
+.background-sobre {
+    background: var(--bg-principal);
+    position: relative;
+    width: 32rem;
+    height: 53.2rem;
+    text-align: center;
+    margin-right: 3rem;
+    box-shadow: -12px 12px 20px 0px rgba(0, 0, 0, 0.20);
+}
+
+.foto-de-paulo {
+    margin-top: 4rem;
+    margin-bottom: 4.9rem;
+}
+
+.bold {
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: var(--branco);
+}
+
+.logos-linguagens {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--branco);
+    padding: 0.8rem 0;
+    margin-top: 0.9rem;
+    margin-left: 2.4rem;
+    margin-right: 2.4rem;
+    border-radius: 1.6rem;
+}
+
+.links-sociais {
+    background: var(--branco);
+    position: absolute;
+    bottom: 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.texto-sobre {
+    width: 35rem;
+    height: 33.3125rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.texto-sobre h2 {
+    font-size: 3.2rem;
+    margin-bottom: 1.2rem;
+}
+
+div.texto-sobre p {
+    text-align: justify;
+    line-height: 2.2rem;
+}
+
+div.texto-sobre a.btn-curriculo {
+    border: 1px solid var(--terciary);
+    border-radius: 2.6rem;
+    display: flex;
+    justify-content: space-between;
+    color: var(--preto);
+    font-weight: 600;
+    width: 50%;
+    margin-top: 1rem;
+    padding: 1.8rem 3.2rem;
+    transition: 0.5s;
+}
+
+div.texto-sobre a.btn-curriculo:hover {
+    background-color: var(--bg-principal);
+    color: var(--branco);
+    transition: 0.5s;
+}
+
+.btn-curriculo:hover .fa-download {
+    color: var(--branco);
+    transition: 0.5s;
+}
+
+.fa-download {
+    color: var(--terciary);
+    transition: 0.5s;
+}
+
+@media screen and (max-width: 999px) {
+    .sobre-mim {
+        align-items: center;
+        flex-flow: column wrap;
+    }
+
+    .texto-sobre h2 {
+        text-align: center;
+    }
+
+    div#sobre p {
+        text-align: center;
+    }
+
+    div.texto-sobre a.btn-curriculo {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .background-sobre {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .sobre-mim {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0;
+    }
+
+    section .texto-sobre {
+        text-align: center;
+        width: 90%;
+        height: 44rem;
+    }
+}
+
+/* Tablets */
+@media screen and (min-width: 768px) and (max-width: 999px) {
+    .sobre-mim {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0;
+    }
+
+    section .texto-sobre {
+        text-align: center;
+        width: 90%;
+        height: 30rem;
+    }
+
+    div.texto-sobre p {
+        text-align: center;
+        margin-top: 0.4rem;
+    }
+}
+
+/* Projetos */
+
+section .projetos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 2rem;
+    max-width: 164rem;
+    gap: 2rem;
+}
+
+section .projetos p {
+    font-weight: 600;
+}
+
+.container-projetos {
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+
+    width: 31.2rem;
+    height: 29.8rem;
+    margin: 0 auto;
+    border-radius: 1.875rem;
+    border: 0.1rem solid var(--branco);
+}
+
+.titulo-projetos {
+    text-align: center;
+    font-size: 3.2rem;
+}
+
+.section-projetos {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+    margin-bottom: 6rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.info-projetos {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: var(--bg-principal);
+    text-align: center;
+    justify-content: center;
+    height: 9.30rem;
+    width: 100%;
+}
+
+.img-info-calculadora {
+    height: 100%;
+    width: 100%;
+    background-image: url(https://raw.githubusercontent.com/PauloAdson/portfolio/main/assets/img/bg-calculadora.png);
+    background-size: cover;
+    background-position: top center;
+    margin-bottom: 4.2rem;
+}
+
+.img-info-relogio-e-cronometro {
+    height: 100%;
+    width: 100%;
+    background-image: url(https://raw.githubusercontent.com/PauloAdson/portfolio/main/assets/img/bg-relogio-e-cronometro.png);
+    background-size: cover;
+    background-position: top center;
+    margin-bottom: 4.2rem;
+}
+
+.img-info-to-do-list {
+    height: 100%;
+    width: 100%;
+    background-image: url(https://raw.githubusercontent.com/PauloAdson/portfolio/main/assets/img/bg-to-do-list.png);
+    background-size: cover;
+    background-position: top center;
+
+}
+
+.img-info-petlife {
+    height: 100%;
+    width: 100%;
+    background-image: url(https://raw.githubusercontent.com/PauloAdson/portfolio/main/assets/img/bg-petlife.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+    margin-bottom: 0.1rem;
+}
+
+.info-projetos p {
+    margin: 1.2rem;
+    color: var(--branco);
+}
+
+.info-projetos .btn-projetos {
+    background-color: var(--branco);
+    border: transparent solid 0.1rem;
+    padding: 0.8rem 1rem;
+    border-radius: 1rem;
+}
+
+.info-projetos .btn-projetos:hover {
+    padding: 0.85rem 1.5rem;
+}
+
+.info-projetos a {
+    color: var(--preto);
+}
+
+.container-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div .btn-mais-projetos {
+    display: flex;
+    justify-content: center;
+    background-color: var(--bg-principal);
+    color: var(--branco);
+    border: transparent solid 0.1rem;
+    width: 24rem;
+    padding: 1.8rem 3.2rem;
+    border-radius: 2.6rem;
+    font-weight: 600;
+  }
+
+div .btn-mais-projetos:hover {
+    background-color: var(--terciary);
+}
+
+div .btn-mais-projetos a {
+    color: var(--branco);
+}
+
+@media screen and (min-width:320px) and (max-width: 767px) {
+    section .projetos {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 999px) {
+    section .projetos {
+        grid-template-columns: 1fr 1fr;
+    }
+}
