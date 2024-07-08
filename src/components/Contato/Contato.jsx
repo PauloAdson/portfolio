@@ -17,7 +17,7 @@ export class Contato extends React.Component {
                         <button type="submit">Enviar</button>
 
                         <input type="hidden" name="accessKey" value="01417344-2dc6-4a48-95e0-384f4d9d904d" />
-                        <input type="hidden" name="redirectTo" value="/obrigado" />
+                        <input type="hidden" name="redirectTo" value="https://portfolio-pauloadson.vercel.app/obrigado" />
                     </form>
                 </section>
             </main>

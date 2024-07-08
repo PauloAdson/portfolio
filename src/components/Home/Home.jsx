@@ -6,7 +6,7 @@ import logoCss3 from '../../assets/images/css3-logo.png';
 import logoJavaScript from '../../assets/images/javascript-logo.png';
 import logoLinkedin from '../../assets/images/linkedin-logo.png';
 import logoGitHub from '../../assets/images/github-logo.png';
-import pdfCurriculo from '../../PauloAdson-Curriculo.pdf'
+import pdfCurriculo from '../../assets/PauloAdson-Curriculo.pdf'
 
 export class Home extends React.Component {
     render() {
