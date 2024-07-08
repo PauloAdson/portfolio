@@ -1,11 +1,21 @@
 import './App.css';
 import React from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { Header } from './components/Header/Header';
+import { Footer } from './components/Footer/Footer';
+import { Home } from './components/Home/Home';
 
 class App extends React.Component {
   render() {
     return (
       <>
-        <h1>Teste de colocar a página na Vercel</h1>
+        <Header />
+        <BrowserRouter>
+          <Routes>
+            <Route path='/' element={<Home />} />
+          </Routes>
+        </BrowserRouter>
+        <Footer />
       </>
     );
   }
