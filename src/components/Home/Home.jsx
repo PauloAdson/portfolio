@@ -90,7 +90,6 @@ export class Home extends React.Component {
                             </div>
                         </div>
 
-
                         <div className="container-btn">
                             <a className="btn-mais-projetos" rel="noreferrer" href="https://github.com/PauloAdson" target="_blank">Outros
                                 Projetos</a>
