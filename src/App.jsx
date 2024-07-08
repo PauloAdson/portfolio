@@ -1,9 +1,10 @@
 import './App.css';
 import React from 'react';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { Header } from './components/Header/Header';
 import { Footer } from './components/Footer/Footer';
 import { Home } from './components/Home/Home';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { Contato } from './components/Contato/Contato';
 
 class App extends React.Component {
   render() {
@@ -13,6 +14,7 @@ class App extends React.Component {
         <BrowserRouter>
           <Routes>
             <Route path='/' element={<Home />} />
+            <Route path='/contato' element={<Contato />} />
           </Routes>
         </BrowserRouter>
         <Footer />
