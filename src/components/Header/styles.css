@@ -25,15 +25,16 @@ header nav div .img-logo {
     text-transform: uppercase;
 }
 
-.menu-links {
-    color: #fff;
+li a.menu-links {
+    color: var(--branco);
     font-weight: 500;
     text-decoration: none;
     transition: 0.3s;
     font-size: 1.6rem;
+    z-index: 20;
 }
 
-.menu-links:hover {
+li a.menu-links:hover {
     opacity: 0.7;
 }
 
