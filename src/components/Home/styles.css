@@ -15,11 +15,12 @@ main {
 }
 
 .sobre-mim {
-    position: relative;
+    /* position: relative; */
     display: flex;
     flex-flow: row wrap;
     padding: 0 1rem;
     justify-content: center;
+    align-items: center;
     margin-bottom: 6rem;
 }
 
@@ -145,10 +146,17 @@ div.texto-sobre a.btn-curriculo:hover {
         margin-bottom: 0;
     }
 
+    div.background-sobre {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        margin-bottom: 4rem;
+    }
+
     section .texto-sobre {
         text-align: center;
         width: 90%;
-        height: 44rem;
+        margin-bottom: 4rem;
     }
 }
 
