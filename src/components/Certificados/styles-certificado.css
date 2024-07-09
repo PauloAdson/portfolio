@@ -1,0 +1,18 @@
+div.certificado {
+    display: flex;
+    justify-content: center;
+}
+
+div.certificado img {
+    width: 40rem;
+}
+
+@media screen and (min-width: 300px) and (max-width: 429px) {
+    div.certificado img {
+        width: 90%;
+    }
+
+    .certificado {
+        width: 100%;
+    }
+}
