@@ -14,24 +14,24 @@ export class Certificados extends React.Component {
                 </div>
 
                 <section id="certificados">
-                    <Certificado certificado="https://raw.githubusercontent.com/PauloAdson/portfolio/main/src/assets/images/certificados/certificado-dio-01.png" />
-                    <Certificado certificado="https://raw.githubusercontent.com/PauloAdson/portfolio/main/src/assets/images/certificados/certificado-dio-02.png" />
-                    <Certificado certificado="https://raw.githubusercontent.com/PauloAdson/portfolio/main/src/assets/images/certificados/certificado-dio-03.png" />
-                    <Certificado certificado="https://raw.githubusercontent.com/PauloAdson/portfolio/main/src/assets/images/certificados/certificado-dio-04.png" />
-                    <Certificado certificado="https://raw.githubusercontent.com/PauloAdson/portfolio/main/src/assets/images/certificados/certificado-dio-05.png" />
-                    <Certificado certificado="https://raw.githubusercontent.com/PauloAdson/portfolio/main/src/assets/images/certificados/certificado-dio-06.png" />
-                    <Certificado certificado="https://raw.githubusercontent.com/PauloAdson/portfolio/main/src/assets/images/certificados/certificado-dio-07.png" />
-                    <Certificado certificado="https://raw.githubusercontent.com/PauloAdson/portfolio/main/src/assets/images/certificados/certificado-dio-08.png" />
-                    <Certificado certificado="https://raw.githubusercontent.com/PauloAdson/portfolio/main/src/assets/images/certificados/certificado-dio-09.png" />
-                    <Certificado certificado="https://raw.githubusercontent.com/PauloAdson/portfolio/main/src/assets/images/certificados/certificado-dio-10.png" />
-                    <Certificado certificado="https://raw.githubusercontent.com/PauloAdson/portfolio/main/src/assets/images/certificados/certificado-dio-11.png" />
-                    <Certificado certificado="https://raw.githubusercontent.com/PauloAdson/portfolio/main/src/assets/images/certificados/certificado-dio-12.png" />
-                    <Certificado certificado="https://raw.githubusercontent.com/PauloAdson/portfolio/main/src/assets/images/certificados/certificado-dio-13.png" />
-                    <Certificado certificado="https://raw.githubusercontent.com/PauloAdson/portfolio/main/src/assets/images/certificados/certificado-dio-14.png" />
-                    <Certificado certificado="https://raw.githubusercontent.com/PauloAdson/portfolio/main/src/assets/images/certificados/certificado-dio-15.png" />
-                    <Certificado certificado="https://raw.githubusercontent.com/PauloAdson/portfolio/main/src/assets/images/certificados/certificado-dio-16.png" />
-                    <Certificado certificado="https://raw.githubusercontent.com/PauloAdson/portfolio/main/src/assets/images/certificados/certificado-dio-17.png" />
-                    <Certificado certificado="https://raw.githubusercontent.com/PauloAdson/portfolio/main/src/assets/images/certificados/certificado-dio-18.png" />
+                    <Certificado certificado="https://raw.githubusercontent.com/PauloAdson/portfolio/main/src/assets/images/certificados/certificado-01.png" />
+                    <Certificado certificado="https://raw.githubusercontent.com/PauloAdson/portfolio/main/src/assets/images/certificados/certificado-02.png" />
+                    <Certificado certificado="https://raw.githubusercontent.com/PauloAdson/portfolio/main/src/assets/images/certificados/certificado-03.png" />
+                    <Certificado certificado="https://raw.githubusercontent.com/PauloAdson/portfolio/main/src/assets/images/certificados/certificado-04.png" />
+                    <Certificado certificado="https://raw.githubusercontent.com/PauloAdson/portfolio/main/src/assets/images/certificados/certificado-05.png" />
+                    <Certificado certificado="https://raw.githubusercontent.com/PauloAdson/portfolio/main/src/assets/images/certificados/certificado-06.png" />
+                    <Certificado certificado="https://raw.githubusercontent.com/PauloAdson/portfolio/main/src/assets/images/certificados/certificado-07.png" />
+                    <Certificado certificado="https://raw.githubusercontent.com/PauloAdson/portfolio/main/src/assets/images/certificados/certificado-08.png" />
+                    <Certificado certificado="https://raw.githubusercontent.com/PauloAdson/portfolio/main/src/assets/images/certificados/certificado-09.png" />
+                    <Certificado certificado="https://raw.githubusercontent.com/PauloAdson/portfolio/main/src/assets/images/certificados/certificado-10.png" />
+                    <Certificado certificado="https://raw.githubusercontent.com/PauloAdson/portfolio/main/src/assets/images/certificados/certificado-11.png" />
+                    <Certificado certificado="https://raw.githubusercontent.com/PauloAdson/portfolio/main/src/assets/images/certificados/certificado-12.png" />
+                    <Certificado certificado="https://raw.githubusercontent.com/PauloAdson/portfolio/main/src/assets/images/certificados/certificado-13.png" />
+                    <Certificado certificado="https://raw.githubusercontent.com/PauloAdson/portfolio/main/src/assets/images/certificados/certificado-14.png" />
+                    <Certificado certificado="https://raw.githubusercontent.com/PauloAdson/portfolio/main/src/assets/images/certificados/certificado-15.png" />
+                    <Certificado certificado="https://raw.githubusercontent.com/PauloAdson/portfolio/main/src/assets/images/certificados/certificado-16.png" />
+                    <Certificado certificado="https://raw.githubusercontent.com/PauloAdson/portfolio/main/src/assets/images/certificados/certificado-17.png" />
+                    <Certificado certificado="https://raw.githubusercontent.com/PauloAdson/portfolio/main/src/assets/images/certificados/certificado-18.png" />
                 </section>
                 <div id="ir-ao-final"></div>
             </>
