@@ -38,6 +38,9 @@ export class Certificados extends React.Component {
                     <Certificado certificado="https://raw.githubusercontent.com/PauloAdson/portfolio/main/src/assets/images/certificados/certificado-22.png" />
                     <Certificado certificado="https://raw.githubusercontent.com/PauloAdson/portfolio/main/src/assets/images/certificados/certificado-23.png" />
                     <Certificado certificado="https://raw.githubusercontent.com/PauloAdson/portfolio/main/src/assets/images/certificados/certificado-24.png" />
+                    <Certificado certificado="https://raw.githubusercontent.com/PauloAdson/portfolio/main/src/assets/images/certificados/certificado-25.png" />
+                    <Certificado certificado="https://raw.githubusercontent.com/PauloAdson/portfolio/main/src/assets/images/certificados/certificado-26.png" />
+                    <Certificado certificado="https://raw.githubusercontent.com/PauloAdson/portfolio/main/src/assets/images/certificados/certificado-27.png" />
                 </section>
                 <div id="ir-ao-final"></div>
             </>
