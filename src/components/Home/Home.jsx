@@ -44,7 +44,7 @@ export class Home extends React.Component {
                             incríveis. Minha abordagem une habilidades técnicas sólidas
                             com um toque de criatividade, resultando em projetos envolventes e intuitivos. Estou
                             constantemente em busca de novas oportunidades para aprimorar minhas habilidades e enfrentar
-                            desafios estimulantes. No momento, estou imerso nos estudos de Java Script, buscando expandir
+                            desafios estimulantes. No momento, estou imerso nos estudos de React, buscando expandir
                             meu conhecimento e contribuir para projetos inovadores.
                         </p>
                         <a class="hover btn-curriculo " href={pdfCurriculo}
