@@ -4,9 +4,11 @@ import pauloAdsonFoto from '../../assets/images/paulo-adson.png';
 import logoHtml5 from '../../assets/images/html5-logo.png';
 import logoCss3 from '../../assets/images/css3-logo.png';
 import logoJavaScript from '../../assets/images/javascript-logo.png';
+import logoReact from '../../assets/images/react-logo.png';
 import logoLinkedin from '../../assets/images/linkedin-logo.png';
 import logoGitHub from '../../assets/images/github-logo.png';
 import pdfCurriculo from '../../assets/PauloAdson-Curriculo.pdf'
+import { Projeto } from "./Projeto";
 
 export class Home extends React.Component {
     render() {
@@ -19,9 +21,10 @@ export class Home extends React.Component {
                         <p className="bold">Paulo Adson</p>
                         <p className="text-uppercase">Desenvoldor Front-End</p>
                         <div className="logos-linguagens">
-                            <img src={logoHtml5} alt="Logo HTML5" width="28px" />
-                            <img src={logoCss3} alt="Logo CSS3" width="28" />
-                            <img src={logoJavaScript} alt="Java Script" width="27" />
+                            <img src={logoHtml5} alt="Logo HTML5" width="30px" />
+                            <img src={logoCss3} alt="Logo CSS3" width="30" />
+                            <img src={logoJavaScript} alt="Java Script" width="30px" />
+                            <img src={logoReact} alt="Java Script" height="32px" />
                         </div>
 
                         <div className="links-sociais">
@@ -54,41 +57,10 @@ export class Home extends React.Component {
                 <h2 className="titulo-projetos" id="projetos">Projetos</h2>
                 <section className="section-projetos">
                     <div className="projetos">
-                        <div className="container-projetos">
-                            <div className="img-info-petlife"></div>
-                            <div className="info-projetos">
-                                <p>Clínica Petlife</p>
-                                <a target="_blank" rel="noreferrer" href="https://pauloadson.github.io/petlife/"><button className="btn-projetos">Ver
-                                    Projeto</button></a>
-                            </div>
-                        </div>
-
-                        <div className="container-projetos">
-                            <div className="img-info-calculadora"></div>
-                            <div className="info-projetos">
-                                <p>Calculadora</p>
-                                <a target="_blank" rel="noreferrer" href="https://pauloadson.github.io/calculadora-black/"><button
-                                    className="btn-projetos">Ver Projeto</button></a>
-                            </div>
-                        </div>
-
-                        <div className="container-projetos">
-                            <div className="img-info-relogio-e-cronometro"></div>
-                            <div className="info-projetos">
-                                <p>Relógio e Cronômetro</p>
-                                <a target="_blank" rel="noreferrer" href="https://pauloadson.github.io/relogio-e-cronometro/"><button
-                                    className="btn-projetos">Ver Projeto</button></a>
-                            </div>
-                        </div>
-
-                        <div className="container-projetos">
-                            <div className="img-info-to-do-list"></div>
-                            <div className="info-projetos">
-                                <p>Lista de Tarefas</p>
-                                <a target="_blank" rel="noreferrer" href="https://pauloadson.github.io/to-do-list/"><button
-                                    className="btn-projetos">Ver Projeto</button></a>
-                            </div>
-                        </div>
+                        <Projeto imagemDoProjeto="img-info-petlife" titulo="Clínica Petlife" linkDoProjeto="https://pauloadson.github.io/petlife/" />
+                        <Projeto imagemDoProjeto="img-info-calculadora" titulo="Calculadora" linkDoProjeto="https://pauloadson.github.io/calculadora-black" />
+                        <Projeto imagemDoProjeto="img-info-relogio-e-cronometro" titulo="Relógio e Cronômetro" linkDoProjeto="https://pauloadson.github.io/relogio-e-cronometro/" />
+                        <Projeto imagemDoProjeto="img-info-to-do-list" titulo="Lista de Tarefas" linkDoProjeto="https://pauloadson.github.io/to-do-list/" />
 
                         <div className="container-btn">
                             <a className="btn-mais-projetos" rel="noreferrer" href="https://github.com/PauloAdson" target="_blank">Outros
