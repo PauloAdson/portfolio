@@ -1,5 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import './styles.css';
+import '../../index.css';
 import logoCinza from '../../assets/images/logo-icon-cinza.png';
 
 export class Header extends React.Component {
