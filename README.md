@@ -1,7 +1,5 @@
 # Portfolio | Com React.Js 
 
-## Projeto do meu Portfolio utilizando React
-
 ### Como iniciar
 ```
 npm start
