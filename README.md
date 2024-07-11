@@ -4,7 +4,7 @@
 
 ### Como iniciar
 ```
-npm star
+npm start
 ```
 
 ## 📚 Documentação
