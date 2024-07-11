@@ -1,6 +1,11 @@
 # Portfolio | Com React.Js 
 
-Repositório feito para ter controle sobre as versões do meu Portfolio
+## Repositório feito para ter controle sobre as versões do meu Portfolio
+
+### Como iniciar
+```
+npm star
+```
 
 ## 📚 Documentação
 - [Documentação React](https://pt-br.legacy.reactjs.org/docs/getting-started.html)
