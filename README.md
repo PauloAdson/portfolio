@@ -1,6 +1,6 @@
 # Portfolio | Com React.Js 
 
-## Repositório feito para ter controle sobre as versões do meu Portfolio
+## Projeto do meu Portfolio utilizando React
 
 ### Como iniciar
 ```
