@@ -235,6 +235,16 @@ section .projetos p {
     width: 100%;
 }
 
+.img-info-ebd {
+    height: 100%;
+    width: 100%;
+    background-image: url(https://raw.githubusercontent.com/PauloAdson/portfolio/main/src/assets/images/bg-ebd.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+    margin-bottom: 0.1rem;
+}
+
 .img-info-petlife {
     height: 100%;
     width: 100%;
