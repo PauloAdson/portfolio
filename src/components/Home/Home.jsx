@@ -57,7 +57,7 @@ export class Home extends React.Component {
                 <h2 className="titulo-projetos" id="projetos">Projetos</h2>
                 <section className="section-projetos">
                     <div className="projetos">
-                        <Projeto imagemDoProjeto="img-info-ebd" titulo="Curso EBD em desenvolvimento" linkDoProjeto="https://curso-escola-biblica.vercel.app/" />
+                        <Projeto imagemDoProjeto="img-info-ebd" titulo="Curso EBD em desenvolvimento" linkDoProjeto="https://curso-ebd.vercel.app/" />
                         <Projeto imagemDoProjeto="img-info-petlife" titulo="Clínica Petlife" linkDoProjeto="https://pauloadson.github.io/petlife/" />
                         <Projeto imagemDoProjeto="img-info-calculadora" titulo="Calculadora" linkDoProjeto="https://pauloadson.github.io/calculadora-black" />
                         <Projeto imagemDoProjeto="img-info-relogio-e-cronometro" titulo="Relógio e Cronômetro" linkDoProjeto="https://pauloadson.github.io/relogio-e-cronometro/" />
