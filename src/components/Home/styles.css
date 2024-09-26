@@ -235,51 +235,47 @@ section .projetos p {
     width: 100%;
 }
 
-.img-info-ebd {
+
+.img-info {
     height: 100%;
     width: 100%;
-    background-image: url(https://raw.githubusercontent.com/PauloAdson/portfolio/main/src/assets/images/bg-ebd.png);
+    background-position: top center;
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: top center;
+}
+
+.img-info-ebd {
+    background-image: url(https://raw.githubusercontent.com/PauloAdson/portfolio/main/src/assets/images/bg-ebd.png);
     margin-bottom: 0.1rem;
 }
 
 .img-info-petlife {
-    height: 100%;
-    width: 100%;
     background-image: url(https://raw.githubusercontent.com/PauloAdson/portfolio/main/src/assets/images/bg-petlife.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: top center;
     margin-bottom: 0.1rem;
 }
 
+.img-info-maratona-vocal {
+    background-image: url(https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/bg-maratonavocal.png);
+}
+
 .img-info-calculadora {
-    height: 100%;
-    width: 100%;
     background-image: url(https://raw.githubusercontent.com/PauloAdson/portfolio/main/src/assets/images/bg-calculadora.png);
-    background-size: cover;
-    background-position: top center;
     margin-bottom: 4.2rem;
+    background-size: cover;
 }
 
 .img-info-relogio-e-cronometro {
-    height: 100%;
-    width: 100%;
+
     background-image: url(https://raw.githubusercontent.com/PauloAdson/portfolio/main/src/assets/images/bg-relogio-e-cronometro.png);
-    background-size: cover;
-    background-position: top center;
     margin-bottom: 4.2rem;
+    background-size: cover;
 }
 
 .img-info-to-do-list {
-    height: 100%;
-    width: 100%;
     background-image: url(https://raw.githubusercontent.com/PauloAdson/portfolio/main/src/assets/images/bg-to-do-list.png);
     background-size: cover;
-    background-position: top center;
 }
+
 
 .info-projetos p {
     margin: 1.2rem;

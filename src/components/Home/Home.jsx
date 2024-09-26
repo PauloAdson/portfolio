@@ -57,11 +57,18 @@ export class Home extends React.Component {
                 <h2 className="titulo-projetos" id="projetos">Projetos</h2>
                 <section className="section-projetos">
                     <div className="projetos">
-                        <Projeto imagemDoProjeto="img-info-ebd" titulo="Curso EBD em desenvolvimento" linkDoProjeto="https://curso-ebd.vercel.app/" />
-                        <Projeto imagemDoProjeto="img-info-petlife" titulo="Clínica Petlife" linkDoProjeto="https://pauloadson.github.io/petlife/" />
-                        <Projeto imagemDoProjeto="img-info-calculadora" titulo="Calculadora" linkDoProjeto="https://pauloadson.github.io/calculadora-black" />
-                        <Projeto imagemDoProjeto="img-info-relogio-e-cronometro" titulo="Relógio e Cronômetro" linkDoProjeto="https://pauloadson.github.io/relogio-e-cronometro/" />
-                        <Projeto imagemDoProjeto="img-info-to-do-list" titulo="Lista de Tarefas" linkDoProjeto="https://pauloadson.github.io/to-do-list/" />
+                        <Projeto imagemDoProjeto="img-info-ebd img-info" titulo="Curso EBD em desenvolvimento" linkDoProjeto="https://curso-ebd.vercel.app/" />
+
+                        <Projeto imagemDoProjeto="img-info-petlife img-info" titulo="Clínica Petlife" linkDoProjeto="https://pauloadson.github.io/petlife/" />
+
+                        <Projeto imagemDoProjeto="img-info-maratona-vocal img-info" titulo="Maratona Vocal" linkDoProjeto="https://maratonavocal.vercel.app/" />
+
+                        <Projeto imagemDoProjeto="img-info-calculadora img-info" titulo="Calculadora" linkDoProjeto="https://pauloadson.github.io/calculadora-black" />
+
+                        <Projeto imagemDoProjeto="img-info-relogio-e-cronometro img-info" titulo="Relógio e Cronômetro" linkDoProjeto="https://pauloadson.github.io/relogio-e-cronometro/" />
+
+                        <Projeto imagemDoProjeto="img-info-to-do-list img-info" titulo="Lista de Tarefas" linkDoProjeto="https://pauloadson.github.io/to-do-list/" />
+
 
                         <div className="container-btn">
                             <a className="btn-mais-projetos" rel="noreferrer" href="https://github.com/PauloAdson" target="_blank">Outros
