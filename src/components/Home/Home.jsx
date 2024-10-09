@@ -14,12 +14,16 @@ export class Home extends React.Component {
     render() {
         return (
             <>
+
                 <section className="sobre-mim">
 
                     <div className="background-sobre">
-                        <img className="foto-de-paulo" src={pauloAdsonFoto} alt="" width="190" />
-                        <p className="bold">Paulo Adson</p>
-                        <p className="text-uppercase">Desenvoldor Front-End</p>
+                        <img className="foto-de-paulo" src={pauloAdsonFoto} alt="Foto de Paulo Adson" width="190" />
+                        <h1 className="bold">Paulo Adson <br />
+                            <span className="text-uppercase"> Desenvoldor Front-End</span>
+                        </h1>
+
+                        {/* <p className="text-uppercase">Desenvoldor Front-End</p> */}
                         <div className="logos-linguagens">
                             <img src={logoHtml5} alt="Logo HTML5" width="30px" />
                             <img src={logoCss3} alt="Logo CSS3" width="30" />
@@ -54,7 +58,7 @@ export class Home extends React.Component {
                     </div>
                 </section>
 
-                <h2 className="titulo-projetos" id="projetos">Projetos</h2>
+                <h3 className="titulo-projetos" id="projetos">Projetos</h3>
                 <section className="section-projetos">
                     <div className="projetos">
                         <Projeto imagemDoProjeto="img-info-ebd img-info" titulo="Curso EBD em desenvolvimento" linkDoProjeto="https://curso-ebd.vercel.app/" />

@@ -22,7 +22,7 @@ export class Header extends React.Component {
                     <nav>
                         <div className="logo">
                             <a href="./"><img className="img-logo" src={logoCinza} alt="logo code" /></a>
-                            <a className="logo-name uppercase" href="/">Paulo Adson / Desenvolvedor Front-End</a>
+                            <a className="logo-name uppercase" href="/">Paulo Adson | Desenvolvedor Front-End</a>
                         </div>
 
                         <div onClick={this.toggleClass} className={active ? 'mobile-menu active' : 'mobile-menu'}>
