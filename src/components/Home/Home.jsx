@@ -69,6 +69,7 @@ export class Home extends React.Component {
 
                         <Projeto imagemDoProjeto="img-info-to-do-list img-info" titulo="Lista de Tarefas" linkDoProjeto="https://pauloadson.github.io/to-do-list/" />
 
+                        <Projeto imagemDoProjeto="img-eleicoes-local img-info" titulo="Consultar Local de Votação | Goiânia" linkDoProjeto="https://paulosites.com.br/eleicoes/consultar/" />
 
                         <div className="container-btn">
                             <a className="btn-mais-projetos" rel="noreferrer" href="https://github.com/PauloAdson" target="_blank">Outros

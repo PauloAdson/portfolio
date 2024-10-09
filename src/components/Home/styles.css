@@ -276,6 +276,11 @@ section .projetos p {
     background-size: cover;
 }
 
+.img-eleicoes-local {
+    background-image: url(https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/bg-eleicoes-local.png);
+    background-size: cover;
+}
+
 
 .info-projetos p {
     margin: 1.2rem;
