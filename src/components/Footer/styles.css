@@ -1,20 +1,22 @@
 footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    background-color: var(--bg-principal);
-    height: 7.4vh;
-  }
-  
-  footer p {
-    color: var(--branco);
-  }
-  
-  footer a {
-    color: var(--secudanry-claro);
-  }
-  
-  footer a:hover {
-    opacity: 0.9;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: var(--bg-principal);
+  height: 80px;
+}
+
+footer p {
+  color: var(--branco);
+}
+
+footer a {
+  color: var(--secudanry-claro);
+  text-decoration: underline;
+}
+
+footer a:hover {
+  opacity: 0.98;
+  color: var(--secudanry);
+}

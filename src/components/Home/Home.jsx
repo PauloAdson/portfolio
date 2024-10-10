@@ -18,12 +18,11 @@ export class Home extends React.Component {
                     <section className="sobre-mim">
 
                         <div className="background-sobre">
-                            <img className="foto-de-paulo" src="https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/paulo-adson.png" alt="Foto de Paulo Adson" width="190" />
+                            <img loading="lazy" className="foto-de-paulo" src="https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/paulo-adson.png" alt="Foto de Paulo Adson" width="190" />
                             <h1 className="bold">Paulo Adson <br />
                                 <span className="text-uppercase"> Desenvoldor Front-End</span>
                             </h1>
 
-                            {/* <p className="text-uppercase">Desenvoldor Front-End</p> */}
                             <div className="logos-linguagens">
                                 <img src={logoHtml5} alt="Logo HTML5" width="30px" />
                                 <img src={logoCss3} alt="Logo CSS3" width="30" />

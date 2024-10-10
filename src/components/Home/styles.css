@@ -18,7 +18,6 @@ main.home_main {
 }
 
 .sobre-mim {
-    /* position: relative; */
     display: flex;
     flex-flow: row wrap;
     padding: 6rem 2rem;
@@ -172,7 +171,6 @@ div.texto-sobre a.btn-curriculo:hover {
         display: flex;
         flex-direction: column;
         align-items: center;
-
     }
 
     section .texto-sobre {
@@ -243,7 +241,6 @@ section .projetos p {
     width: 100%;
 }
 
-
 .img-info {
     height: 100%;
     width: 100%;
@@ -288,7 +285,6 @@ section .projetos p {
     background-image: url(https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/bg-eleicoes-local.png);
     background-size: cover;
 }
-
 
 .info-projetos p {
     margin: 1.2rem;
