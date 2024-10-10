@@ -12,7 +12,7 @@ footer {
   }
   
   footer a {
-    color: var(--secudanry);
+    color: var(--secudanry-claro);
   }
   
   footer a:hover {

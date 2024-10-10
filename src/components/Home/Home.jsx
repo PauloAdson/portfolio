@@ -1,6 +1,5 @@
 import React from "react";
 import './styles.css';
-import pauloAdsonFoto from '../../assets/images/paulo-adson.png';
 import logoHtml5 from '../../assets/images/html5-logo.png';
 import logoCss3 from '../../assets/images/css3-logo.png';
 import logoJavaScript from '../../assets/images/javascript-logo.png';
@@ -19,7 +18,7 @@ export class Home extends React.Component {
                     <section className="sobre-mim">
 
                         <div className="background-sobre">
-                            <img className="foto-de-paulo" src={pauloAdsonFoto} alt="Foto de Paulo Adson" width="190" />
+                            <img className="foto-de-paulo" src="https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/paulo-adson.png" alt="Foto de Paulo Adson" width="190" />
                             <h1 className="bold">Paulo Adson <br />
                                 <span className="text-uppercase"> Desenvoldor Front-End</span>
                             </h1>
