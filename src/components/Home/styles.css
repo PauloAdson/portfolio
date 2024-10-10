@@ -2,8 +2,11 @@
     text-transform: uppercase;
 }
 
-main {
+main.home_main {
+    height: 100%;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
 }
 
 .background-sobre .text-uppercase {
@@ -18,10 +21,9 @@ main {
     /* position: relative; */
     display: flex;
     flex-flow: row wrap;
-    padding: 0 1rem;
+    padding: 6rem 2rem;
     justify-content: center;
     align-items: center;
-    margin-bottom: 6rem;
 }
 
 .background-sobre {
@@ -29,6 +31,7 @@ main {
     position: relative;
     width: 32rem;
     height: 53.2rem;
+    box-sizing: border-box;
     text-align: center;
     margin-right: 3rem;
     box-shadow: -12px 12px 20px 0px rgba(0, 0, 0, 0.20);
@@ -70,15 +73,14 @@ main {
 
 .texto-sobre {
     width: 35rem;
-    height: 33.3125rem;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    gap: 1.2rem;
 }
 
 .texto-sobre h2 {
     font-size: 3.2rem;
-    margin-bottom: 1.2rem;
 }
 
 div.texto-sobre p {
@@ -87,14 +89,18 @@ div.texto-sobre p {
 }
 
 div.texto-sobre a.btn-curriculo {
-    border: 1px solid var(--terciary);
-    border-radius: 2.6rem;
     display: flex;
     justify-content: space-between;
+    box-sizing: border-box;
+
+    border: 1px solid var(--terciary);
+    border-radius: 2.6rem;
+
     color: var(--preto);
     font-weight: 600;
-    width: 50%;
-    margin-top: 1rem;
+    max-width: 350px;
+    width: 100%;
+    /* margin-top: 1rem; */
     padding: 1.8rem 3.2rem;
     transition: 0.5s;
 }
@@ -119,6 +125,7 @@ div.texto-sobre a.btn-curriculo:hover {
     .sobre-mim {
         align-items: center;
         flex-flow: column wrap;
+        gap: 30px;
     }
 
     .texto-sobre h2 {
@@ -151,13 +158,12 @@ div.texto-sobre a.btn-curriculo:hover {
         margin-left: auto;
         margin-right: auto;
         margin-top: 0px;
-        margin-bottom: 4rem;
+        
     }
 
     section .texto-sobre {
         text-align: center;
         width: 90%;
-        margin-bottom: 4rem;
     }
 }
 
@@ -167,29 +173,30 @@ div.texto-sobre a.btn-curriculo:hover {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-bottom: 0;
+
     }
 
     section .texto-sobre {
         text-align: center;
-        width: 90%;
-        height: 30rem;
+        width: 100%;
     }
 
     div.texto-sobre p {
         text-align: center;
-        margin-top: 0.4rem;
     }
 }
 
 /* Projetos */
 
-section .projetos {
+section div.projetos {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin: 0 2rem;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 100%;
     max-width: 164rem;
     gap: 2rem;
+    box-sizing: border-box;
 }
 
 section .projetos p {
@@ -216,9 +223,11 @@ section .projetos p {
 
 .section-projetos {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    margin-top: 1.5rem;
-    margin-bottom: 6rem;
+    gap: 3.8rem;
+    padding: 0 2rem 6rem 2rem;
+    box-sizing: border-box;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
@@ -329,13 +338,13 @@ div .btn-mais-projetos a {
 }
 
 @media screen and (min-width:320px) and (max-width: 767px) {
-    section .projetos {
+    section div.projetos {
         grid-template-columns: 1fr;
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 999px) {
-    section .projetos {
+@media screen and (min-width: 768px) and (max-width: 1299px) {
+    section div.projetos {
         grid-template-columns: 1fr 1fr;
     }
 }

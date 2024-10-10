@@ -4,7 +4,7 @@ import './styles.css'
 export class Contato extends React.Component {
     render() {
         return (
-            <main>
+            <main className="contato_main">
                 <section id="contato">
                     <h2>Contato</h2>
                     <form action="https://api.staticforms.xyz/submit" method="post">
