@@ -1,11 +1,14 @@
 import React from "react";
 import './styles.css';
 import { Certificado } from "./Certificado";
+import { Header } from "../Header/Header";
+import { Footer } from "../Footer/Footer";
 
 export class Certificados extends React.Component {
     render() {
         return (
             <>
+                <Header />
                 <main className="certificados_main">
 
                     <h1 id="voltar-ao-topo">Meus Certificados</h1>
@@ -47,6 +50,7 @@ export class Certificados extends React.Component {
                     </section>
                     <div id="ir-ao-final"></div>
                 </main>
+                <Footer />
             </>
         );
     }

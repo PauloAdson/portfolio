@@ -1,20 +1,23 @@
 import React from 'react';
-import { Header } from './components/Header/Header';
-import { Footer } from './components/Footer/Footer';
 import { Home } from './components/Home/Home';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { Contato } from './components/Contato/Contato';
 import { Obrigado } from './components/Obrigado/Obrigado';
 import { Certificados } from './components/Certificados/Certificados';
+import { Projetos } from './components/Projetos/Projetos';
 
 class App extends React.Component {
   render() {
     return (
       <>
-        <Header />
         <BrowserRouter>
           <Routes>
+
+            <Route path='*' element={<Home />} />
+
             <Route path='/' element={<Home />} />
+
+            <Route path='/projetos' element={<Projetos />} />
 
             <Route path='/certificados' element={<Certificados />} />
 
@@ -22,10 +25,8 @@ class App extends React.Component {
 
             <Route path='/obrigado' element={<Obrigado />} />
 
-            <Route path='*' element={<Home />} />
           </Routes>
         </BrowserRouter>
-        <Footer />
       </>
     );
   }

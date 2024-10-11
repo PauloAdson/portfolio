@@ -8,11 +8,14 @@ import logoLinkedin from '../../assets/images/linkedin-logo.png';
 import logoGitHub from '../../assets/images/github-logo.png';
 import pdfCurriculo from '../../assets/PauloAdson-Curriculo.pdf'
 import { Projeto } from "./Projeto";
+import { Header } from "../Header/Header";
+import { Footer } from "../Footer/Footer";
 
 export class Home extends React.Component {
     render() {
         return (
             <>
+                <Header />
                 <main className="home_main">
 
                     <section className="sobre-mim">
@@ -81,6 +84,7 @@ export class Home extends React.Component {
                         </div>
                     </section>
                 </main>
+                <Footer />
             </>
         );
     }
