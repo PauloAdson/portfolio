@@ -34,7 +34,7 @@ export class Header extends React.Component {
                         <ul className={active ? 'nav-list uppercase active' : 'nav-list uppercase'}>
                             <li><a className="menu-links" href="./">Home</a></li>
                             <li><a className="menu-links" href="/#sobre">Sobre Mim</a></li>
-                            <li><a className="menu-links" href="/#projetos">Projetos</a></li>
+                            <li><a className="menu-links" href="/projetos">Projetos</a></li>
                             <li><a className="menu-links" href="/certificados">Certificados</a></li>
                             <li><a className="menu-links" href="/contato">Contato</a></li>
                         </ul>

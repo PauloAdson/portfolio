@@ -49,7 +49,7 @@ header nav {
     flex-direction: row;
     box-sizing: border-box;
     margin: 0 auto;
-    height: 8.5vh;
+    height: 80px;
 }
 
 .nav-list {
@@ -92,7 +92,7 @@ header nav {
         position: absolute;
         top: 89.4px;
         right: 0;
-        height: calc(100vh - 8.5vh);
+        height: calc(100vh - 85px);
         width: 50vw;
         background: var(--bg-principal);
         flex-direction: column;

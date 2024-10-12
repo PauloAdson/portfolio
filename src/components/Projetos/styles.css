@@ -1,11 +1,21 @@
 main.projetos_main {
     display: flex;
     flex-direction: column;
-
+    align-items: center;
     box-sizing: border-box;
 
     gap: 6rem;
     padding: 6rem 2rem;
+}
+
+div.projetos_main-container-title {
+    display: flex;
+    flex-direction: column;
+    gap: 2.6rem;
+}
+
+h1.projetos_main-title, span.projetos_main-title-span {
+    text-align: center;
 }
 
 section.projetos_main-section {
@@ -33,7 +43,7 @@ div.projeto_container {
 }
 
 
-div.projeto_container-content-info {
+div.projeto_container-info {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -41,7 +51,7 @@ div.projeto_container-content-info {
     padding: 20px;
 }
 
-div.projeto_container-content-info p.projeto_container-content-text {
+div.projeto_container-info p.projeto_container-content-text {
     line-height: 18px;
 }
 
@@ -54,7 +64,15 @@ div.projeto_container-content-img-linguagens img {
     padding-right: 12px;
 }
 
+@media screen and (min-width:1000px) {
 
+    div.projeto_container-info a.projeto_container-link {
+        width: fit-content;
+        text-decoration: underline;
+        color: var(--preto);
+    }
+    
+}
 
 /* Backgrounds dos Projetos */
 div.projeto_container-img {
@@ -73,14 +91,18 @@ div.projeto_container-img img.projeto_container-content-img {
     transform: translateY(0);
 }
 
-div.projeto_container:hover img.projeto_container-content-img.curso-ebd {
+div.projeto_container img.projeto_container-content-img.curso-ebd.animate {
     transform: translateY(-67.7%);
 }
 
-div.projeto_container:hover img.projeto_container-content-img.maratona-vocal {
+div.projeto_container img.projeto_container-content-img.maratona-vocal.animate {
     transform: translateY(-90%);
 }
 
-div.projeto_container:hover img.projeto_container-content-img.petlife {
+div.projeto_container img.projeto_container-content-img.petlife.animate {
     transform: translateY(-73.6%);
+}
+
+div.projeto_container img.projeto_container-content-img.consulta-votacao.animate {
+    transform: translateY(-42.5%);
 }

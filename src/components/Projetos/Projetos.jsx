@@ -12,8 +12,10 @@ export class Projetos extends React.Component {
             <>
                 <Header />
                 <main className="projetos_main">
-                    <h1 className="projetos_main-title">Projetos</h1>
-
+                    <div className="projetos_main-container-title">
+                        <h1 className="projetos_main-title">Projetos</h1>
+                        <span className="projetos_main-title-span">Clique na imagem para ver o projeto completo!</span>
+                    </div>
                     <section className="projetos_main-section">
 
                         <ProjetoBloco class_projeto_img='curso-ebd'
@@ -36,7 +38,7 @@ export class Projetos extends React.Component {
                             projeto_img={'https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/maratonavocal.png'}
                             projeto_img_desc='Imagem página de vendas Maratona Vocal'
                             projeto_title='Página de Vendas | Maratona Vocal'
-                            projeto_desc='Uma página de vendas online para a Maratona Vocal, onde os usuários podem descobrir o método definitivo para dominar técnicas vocais como vibrato, notas agudas e graves, e impressionar ao cantar, mesmo sem experiência prévia ou talento natural. Desenvolvida com React, garantindo alta performance e interatividade para uma navegação fluida e envolvente.'
+                            projeto_desc='Uma página de vendas online para a Maratona Vocal. Desenvolvida com React, garantindo alta performance e interatividade para uma navegação fluida e envolvente.'
                             projeto_img_liguagem1={'https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/react-logo.png'}
                             projeto_img_liguagem2={'https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/css3-logo.png'}
 
@@ -48,7 +50,7 @@ export class Projetos extends React.Component {
                             projeto_img={'https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/petlife.png'}
                             projeto_img_desc='Imagem página de uma clínica veterinária PetLife'
                             projeto_title='PetLife'
-                            projeto_desc='A PetLife é o seu refúgio de confiança para o cuidado completo do seu pet. Com profissionais dedicados e serviços abrangentes, oferecemos uma experiência acolhedora e personalizada, garantindo o bem-estar, a saúde e a felicidade dos seus animais de estimação. Desenvolvida com HTML, CSS e JavaScript, a página oferece uma interface intuitiva e funcional, proporcionando uma experiência agradável e fácil de usar.'
+                            projeto_desc='Desenvolvida com HTML, CSS e JavaScript, a página oferece uma interface intuitiva e funcional, proporcionando uma experiência agradável e fácil de usar.'
                             projeto_img_liguagem1={'https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/html5-logo.png'}
                             projeto_img_liguagem2={'https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/css3-logo.png'}
                             projeto_img_liguagem3={'https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/javascript-logo.png'}
@@ -56,6 +58,22 @@ export class Projetos extends React.Component {
                             projeto_img_liguagem_desc1='Logo HTML'
                             projeto_img_liguagem_desc2='Logo CSS'
                             projeto_img_liguagem_desc3='Logo JavaScript'
+                            projeto_link='/projetos' />
+
+                        <ProjetoBloco class_projeto_img='consulta-votacao'
+                            projeto_img={'https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/consultarvotacao.png'}
+                            projeto_img_desc='Imagem página local de votação'
+                            projeto_title='Consulta de Local de Votação'
+                            projeto_desc='Um site voltado para moradores de Goiânia, que permite consultar rapidamente o local de votação. Utilizando HTML, CSS, PHP e MySQL, a plataforma oferece uma interface simples e funcional para facilitar o acesso a informações eleitorais de maneira eficiente e intuitiva.'
+                            projeto_img_liguagem1={'https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/html5-logo.png'}
+                            projeto_img_liguagem2={'https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/css3-logo.png'}
+                            projeto_img_liguagem3={'https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/php-logo.png'}
+                            projeto_img_liguagem4={'https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/mysql-logo.png'}
+
+                            projeto_img_liguagem_desc1='Logo HTML'
+                            projeto_img_liguagem_desc2='Logo CSS'
+                            projeto_img_liguagem_desc3='Logo PHP'
+                            projeto_img_liguagem_desc4='Logo MYSQL'
                             projeto_link='/projetos' />
 
                     </section>
