@@ -4,6 +4,8 @@ header {
     background-color: var(--bg-principal);
     margin-left: auto;
     margin-right: auto;
+    padding: 0 2rem;
+    box-sizing: border-box;
 }
 
 .logo {
@@ -42,10 +44,11 @@ li a.menu-links:hover {
 header nav {
     max-width: 1640px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin: 0 auto;
+    justify-content: space-between;
     align-items: center;
+    flex-direction: row;
+    box-sizing: border-box;
+    margin: 0 auto;
     height: 8.5vh;
 }
 
