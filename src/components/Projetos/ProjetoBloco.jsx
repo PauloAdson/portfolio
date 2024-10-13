@@ -33,11 +33,14 @@ export class ProjetoBloco extends React.Component {
                         <h3>{this.props.projeto_title}</h3>
                         <p className="projeto_container-content-text">{this.props.projeto_desc}</p>
                         <div className="projeto_container-content-img-linguagens">
+                            {this.props.projeto_linguagens.map((linguagem, index) => (
 
-                            <img src={this.props.projeto_img_liguagem1} alt={this.props.projeto_img_liguagem_desc1} />
-                            <img src={this.props.projeto_img_liguagem2} alt={this.props.projeto_img_liguagem_desc2} />
-                            <img src={this.props.projeto_img_liguagem3} alt={this.props.projeto_img_liguagem_desc3} />
-                            <img src={this.props.projeto_img_liguagem4} alt={this.props.projeto_img_liguagem_desc4} />
+                                <img
+                                    key={index}
+                                    src={linguagem.src}
+                                    alt={linguagem.desc} />
+                            ))}
+
                         </div>
                         <a className="projeto_container-link" href={this.props.projeto_link} rel="noopener" target="_blank">Ver Projeto</a>
                     </div>

@@ -1,3 +1,12 @@
+section.projetos_main-section {
+    max-width: 1640px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
 main.projetos_main {
     display: flex;
     flex-direction: column;
@@ -16,15 +25,6 @@ div.projetos_main-container-title {
 
 h1.projetos_main-title, span.projetos_main-title-span {
     text-align: center;
-}
-
-section.projetos_main-section {
-    max-width: 1640px;
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    gap: 4rem;
 }
 
 /* ESTILIZACAO BLOCO */
@@ -71,7 +71,51 @@ div.projeto_container-content-img-linguagens img {
         text-decoration: underline;
         color: var(--preto);
     }
-    
+}
+
+@media screen and (max-width:999px) {
+    section.projetos_main-section {
+        align-items: center;
+    }
+
+    div.projeto_container {
+        flex-direction: column;
+        gap: 24px;
+        width: 420px;
+        padding: 6px;
+    }
+
+    div.projeto_container div.projeto_container-img {
+        width: auto;
+    }
+
+    div.projeto_container-info {
+        align-items: center;
+        gap: 32px;
+        padding: 0;
+    }
+
+    div.projeto_container-info p.projeto_container-content-text {
+        text-align: center;
+    }
+
+    div.projeto_container-info a.projeto_container-link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        background-color: var(--terciary);
+        width: 240px;
+        height: 40px;
+        border-radius: 20px;
+        color: var(--branco);
+        font-weight: 600;
+        margin-bottom: 24px;
+    }
+
+    div.projeto_container-info a.projeto_container-link:active {
+        background-color: var(--secudanry);
+    }
 }
 
 /* Backgrounds dos Projetos */
