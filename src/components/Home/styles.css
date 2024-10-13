@@ -200,8 +200,6 @@ section .projetos p {
     font-weight: 600;
 }
 
-
-
 .titulo-projetos {
     text-align: center;
     font-size: 3.2rem;
@@ -219,45 +217,27 @@ section .projetos p {
     box-sizing: border-box;
 }
 
-.info-projetos .btn-projetos {
-    background-color: var(--branco);
-    border: transparent solid 0.1rem;
-    padding: 0.8rem 1rem;
-    border-radius: 1rem;
-}
-
-.info-projetos .btn-projetos:hover {
-    padding: 0.81rem 1.1rem;
-}
-
-.info-projetos a {
-    color: var(--preto);
-}
-
-.container-btn {
+a.btn-mais-projetos {
     display: flex;
     align-items: center;
     justify-content: center;
-}
 
-div .btn-mais-projetos {
-    display: flex;
-    justify-content: center;
-    background-color: var(--bg-principal);
-    color: var(--branco);
-    border: transparent solid 0.1rem;
-    width: 24rem;
-    padding: 1.8rem 3.2rem;
-    border-radius: 2.6rem;
-    font-weight: 600;
-}
-
-div .btn-mais-projetos:hover {
     background-color: var(--terciary);
+    width: 304px;
+    height: 52px;
+    border-radius: 26px;
+    color: var(--branco);
+    font-weight: 600;
+    margin: 0 auto;
+    
 }
 
-div .btn-mais-projetos a {
-    color: var(--branco);
+a.btn-mais-projetos:hover {
+    background-color: var(--secundary);
+}
+
+a.btn-mais-projetos:active {
+    background-color: var(--bg-principal);
 }
 
 @media screen and (min-width:320px) and (max-width: 767px) {

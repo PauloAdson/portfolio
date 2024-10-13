@@ -79,7 +79,7 @@ div.projeto_container-content-img-linguagens img {
     }
 
     div.projeto_container-info a.projeto_container-link:hover {
-        color: var(--secudanry);
+        color: var(--secundary);
 
     }
 
@@ -134,7 +134,7 @@ div.projeto_container-content-img-linguagens img {
     }
 
     div.projeto_container-info a.projeto_container-link:active {
-        background-color: var(--secudanry);
+        background-color: var(--secundary);
     }
 }
 

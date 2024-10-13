@@ -68,6 +68,7 @@ export class Projetos extends React.Component {
                             ]}
                             projeto_link='https://paulosites.com.br/eleicoes/consultar' />
 
+                        <a className="btn-mais-projetos" rel="noopener" target="_blank" href="https://github.com/PauloAdson" >GitHub + Projetos</a>
                     </section>
                 </main>
                 <Footer />

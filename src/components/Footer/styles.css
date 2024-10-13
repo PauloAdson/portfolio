@@ -12,11 +12,11 @@ footer p {
 }
 
 footer a {
-  color: var(--secudanry-claro);
+  color: var(--secundary-claro);
   text-decoration: underline;
 }
 
 footer a:hover {
   opacity: 0.98;
-  color: var(--secudanry);
+  color: var(--secundary);
 }

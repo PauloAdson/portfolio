@@ -7,7 +7,6 @@ import logoReact from '../../assets/images/react-logo.png';
 import logoLinkedin from '../../assets/images/linkedin-logo.png';
 import logoGitHub from '../../assets/images/github-logo.png';
 import pdfCurriculo from '../../assets/PauloAdson-Curriculo.pdf'
-import { Projeto } from "./Projeto";
 import { Header } from "../Header/Header";
 import { Footer } from "../Footer/Footer";
 import { ProjetoBloco } from "../Projetos/ProjetoBloco";
@@ -101,10 +100,8 @@ export class Home extends React.Component {
                             ]}
                             projeto_link='https://petlife-one.vercel.app/' />
 
-                        <div className="container-btn">
-                            <a className="btn-mais-projetos" rel="noreferrer" href="https://github.com/PauloAdson" target="_blank">Outros
-                                Projetos</a>
-                        </div>
+                        <a className="btn-mais-projetos" rel="noopener" href="/projetos" >Outros Projetos</a>
+
                     </section>
                 </main>
                 <Footer />
