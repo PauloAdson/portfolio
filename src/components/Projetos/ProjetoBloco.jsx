@@ -30,7 +30,7 @@ export class ProjetoBloco extends React.Component {
                     </div>
 
                     <div className="projeto_container-info">
-                        <h3>{this.props.projeto_title}</h3>
+                        <h3 className="projeto_container-info-title">{this.props.projeto_title}</h3>
                         <p className="projeto_container-content-text">{this.props.projeto_desc}</p>
                         <div className="projeto_container-content-img-linguagens">
                             {this.props.projeto_linguagens.map((linguagem, index) => (

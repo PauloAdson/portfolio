@@ -10,6 +10,7 @@ import pdfCurriculo from '../../assets/PauloAdson-Curriculo.pdf'
 import { Projeto } from "./Projeto";
 import { Header } from "../Header/Header";
 import { Footer } from "../Footer/Footer";
+import { ProjetoBloco } from "../Projetos/ProjetoBloco";
 
 export class Home extends React.Component {
     render() {
@@ -62,25 +63,47 @@ export class Home extends React.Component {
 
                     <section className="section-projetos">
                         <h3 className="titulo-projetos" id="projetos">Projetos</h3>
-                        <div className="projetos">
-                            <Projeto imagemDoProjeto="img-info-ebd img-info" titulo="Curso EBD em desenvolvimento" linkDoProjeto="https://curso-ebd.vercel.app/" />
+                        <span className="projetos_main-title-span">Clique na imagem para ver o projeto completo!</span>
+                        <ProjetoBloco class_projeto_img='curso-ebd'
+                            projeto_img={'https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/curso-ebd.png'}
+                            projeto_img_desc='Imagem da Plataforma de Curso de Escola Bíblica'
+                            projeto_title='Plataforma de Curso | Escola Bíblica'
+                            projeto_desc='Uma plataforma online onde os usuários podem se cadastrar, fazer login e acessar conteúdos de curso bíblico. Desenvolvida com React, Node.js e MySQL para garantir interatividade, segurança e performance. O design da interface foi planejado utilizando o Figma, garantindo uma experiência de usuário fluida e intuitiva.'
+                            projeto_linguagens={[
+                                { src: 'https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/react-logo.png', desc: 'Logo React' },
+                                { src: 'https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/node-logo.png', desc: 'Logo Node' },
+                                { src: 'https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/mysql-logo.png', desc: 'Logo Mysql' },
+                                { src: 'https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/figma-logo.png', desc: 'Logo Figma' }
+                            ]}
+                            projeto_link='https://curso-ebd.vercel.app/' />
 
-                            <Projeto imagemDoProjeto="img-info-petlife img-info" titulo="Clínica Petlife" linkDoProjeto="https://pauloadson.github.io/petlife/" />
+                        <ProjetoBloco class_projeto_img='maratona-vocal'
+                            projeto_img={'https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/maratonavocal.png'}
+                            projeto_img_desc='Imagem página de vendas Maratona Vocal'
+                            projeto_title='Página de Vendas | Maratona Vocal'
+                            projeto_desc='Uma página de vendas online para a Maratona Vocal. Desenvolvida com React, garantindo alta performance e interatividade para uma navegação fluida e envolvente.'
+                            projeto_linguagens={[
+                                { src: 'https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/react-logo.png', desc: 'Logo React' },
+                                { src: 'https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/html5-logo.png', desc: 'Logo HTML5' },
+                                { src: 'https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/css3-logo.png', desc: 'Logo CSS3' },
+                            ]}
+                            projeto_link='https://maratonavocal.vercel.app/' />
 
-                            <Projeto imagemDoProjeto="img-info-maratona-vocal img-info" titulo="Maratona Vocal" linkDoProjeto="https://maratonavocal.vercel.app/" />
+                        <ProjetoBloco class_projeto_img='petlife'
+                            projeto_img={'https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/petlife.png'}
+                            projeto_img_desc='Imagem página de uma clínica veterinária PetLife'
+                            projeto_title='PetLife'
+                            projeto_desc='Desenvolvida com HTML, CSS e JavaScript, a página oferece uma interface intuitiva e funcional, proporcionando uma experiência agradável e fácil de usar.'
+                            projeto_linguagens={[
+                                { src: 'https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/html5-logo.png', desc: 'Logo HTML5' },
+                                { src: 'https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/css3-logo.png', desc: 'Logo CSS3' },
+                                { src: 'https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/javascript-logo.png', desc: 'Logo JavaScript' },
+                            ]}
+                            projeto_link='https://petlife-one.vercel.app/' />
 
-                            <Projeto imagemDoProjeto="img-info-calculadora img-info" titulo="Calculadora" linkDoProjeto="https://pauloadson.github.io/calculadora-black" />
-
-                            <Projeto imagemDoProjeto="img-info-relogio-e-cronometro img-info" titulo="Relógio e Cronômetro" linkDoProjeto="https://pauloadson.github.io/relogio-e-cronometro/" />
-
-                            <Projeto imagemDoProjeto="img-info-to-do-list img-info" titulo="Lista de Tarefas" linkDoProjeto="https://pauloadson.github.io/to-do-list/" />
-
-                            <Projeto imagemDoProjeto="img-eleicoes-local img-info" titulo="Consultar Local de Votação | Goiânia" linkDoProjeto="https://paulosites.com.br/eleicoes/consultar/" />
-
-                            <div className="container-btn">
-                                <a className="btn-mais-projetos" rel="noreferrer" href="https://github.com/PauloAdson" target="_blank">Outros
-                                    Projetos</a>
-                            </div>
+                        <div className="container-btn">
+                            <a className="btn-mais-projetos" rel="noreferrer" href="https://github.com/PauloAdson" target="_blank">Outros
+                                Projetos</a>
                         </div>
                     </section>
                 </main>

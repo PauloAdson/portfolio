@@ -51,6 +51,10 @@ div.projeto_container-info {
     padding: 20px;
 }
 
+div.projeto_container-info h3.projeto_container-info-title {
+    font-size: 1.6rem;
+}
+
 div.projeto_container-info p.projeto_container-content-text {
     line-height: 18px;
 }
@@ -69,7 +73,24 @@ div.projeto_container-content-img-linguagens img {
     div.projeto_container-info a.projeto_container-link {
         width: fit-content;
         text-decoration: underline;
+        color: var(--terciary);
+        font-weight: 700;
+        font-size: 1.6rem;
+    }
+
+    div.projeto_container-info a.projeto_container-link:hover {
+        color: var(--secudanry);
+
+    }
+
+    div.projeto_container-info a.projeto_container-link:active {
         color: var(--preto);
+    }
+}
+
+@media screen and (min-width:432px) and (max-width:999px) {
+    div.projeto_container {
+        width: 420px;
     }
 }
 
@@ -81,7 +102,6 @@ div.projeto_container-content-img-linguagens img {
     div.projeto_container {
         flex-direction: column;
         gap: 24px;
-        width: 420px;
         padding: 6px;
     }
 
@@ -129,24 +149,43 @@ div.projeto_container-img {
     overflow: hidden;
 }
 
-div.projeto_container-img img.projeto_container-content-img {
+img.projeto_container-content-img {
     width: 100%;
     transition: transform 3s ease-in;
     transform: translateY(0);
 }
 
-div.projeto_container img.projeto_container-content-img.curso-ebd.animate {
-    transform: translateY(-67.7%);
+img.projeto_container-content-img.curso-ebd.animate {
+    transform: translateY(-61.6%);
 }
 
-div.projeto_container img.projeto_container-content-img.maratona-vocal.animate {
+img.projeto_container-content-img.maratona-vocal.animate {
     transform: translateY(-90%);
 }
 
-div.projeto_container img.projeto_container-content-img.petlife.animate {
+img.projeto_container-content-img.petlife.animate {
     transform: translateY(-73.6%);
 }
 
-div.projeto_container img.projeto_container-content-img.consulta-votacao.animate {
+img.projeto_container-content-img.consulta-votacao.animate {
     transform: translateY(-42.5%);
+}
+
+/* Backgrounds dos Projetos para smartphones*/
+@media screen and (max-width:431px) {
+    div.projeto_container img.projeto_container-content-img.curso-ebd.animate {
+        transform: translateY(-53%);
+    }
+
+    div.projeto_container img.projeto_container-content-img.maratona-vocal.animate {
+        transform: translateY(-87.5%);
+    }
+
+    div.projeto_container img.projeto_container-content-img.petlife.animate {
+        transform: translateY(-67.4%);
+    }
+
+    div.projeto_container img.projeto_container-content-img.consulta-votacao.animate {
+        transform: translateY(-29%);
+    }
 }

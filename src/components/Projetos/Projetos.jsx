@@ -29,8 +29,7 @@ export class Projetos extends React.Component {
                                 { src: 'https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/mysql-logo.png', desc: 'Logo Mysql' },
                                 { src: 'https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/figma-logo.png', desc: 'Logo Figma' }
                             ]}
-
-                            projeto_link='/projetos' />
+                            projeto_link='https://curso-ebd.vercel.app/' />
 
                         <ProjetoBloco class_projeto_img='maratona-vocal'
                             projeto_img={'https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/maratonavocal.png'}
@@ -42,7 +41,7 @@ export class Projetos extends React.Component {
                                 { src: 'https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/html5-logo.png', desc: 'Logo HTML5' },
                                 { src: 'https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/css3-logo.png', desc: 'Logo CSS3' },
                             ]}
-                            projeto_link='/projetos' />
+                            projeto_link='https://maratonavocal.vercel.app/' />
 
                         <ProjetoBloco class_projeto_img='petlife'
                             projeto_img={'https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/petlife.png'}
@@ -54,7 +53,7 @@ export class Projetos extends React.Component {
                                 { src: 'https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/css3-logo.png', desc: 'Logo CSS3' },
                                 { src: 'https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/javascript-logo.png', desc: 'Logo JavaScript' },
                             ]}
-                            projeto_link='/projetos' />
+                            projeto_link='https://petlife-one.vercel.app/' />
 
                         <ProjetoBloco class_projeto_img='consulta-votacao'
                             projeto_img={'https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/consultarvotacao.png'}
@@ -67,7 +66,7 @@ export class Projetos extends React.Component {
                                 { src: 'https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/php-logo.png', desc: 'Logo PHP' },
                                 { src: 'https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/mysql-logo.png', desc: 'Logo MYSQL' },
                             ]}
-                            projeto_link='/projetos' />
+                            projeto_link='https://paulosites.com.br/eleicoes/consultar' />
 
                     </section>
                 </main>
