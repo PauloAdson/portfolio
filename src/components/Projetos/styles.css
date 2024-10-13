@@ -52,11 +52,11 @@ div.projeto_container-info {
 }
 
 div.projeto_container-info h3.projeto_container-info-title {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
 }
 
 div.projeto_container-info p.projeto_container-content-text {
-    line-height: 18px;
+    line-height: 24px;
 }
 
 div.projeto_container-content-img-linguagens {
@@ -75,7 +75,7 @@ div.projeto_container-content-img-linguagens img {
         text-decoration: underline;
         color: var(--terciary);
         font-weight: 700;
-        font-size: 1.6rem;
+        font-size: 1.8rem;
     }
 
     div.projeto_container-info a.projeto_container-link:hover {

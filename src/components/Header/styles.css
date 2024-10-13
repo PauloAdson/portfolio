@@ -29,7 +29,7 @@ header nav div .img-logo {
 
 li a.menu-links {
     color: var(--branco);
-    font-weight: 500;
+    font-weight: 600;
     text-decoration: none;
     transition: 0.3s;
     font-size: 1.6rem;
