@@ -21,8 +21,13 @@ export class Header extends React.Component {
 
                     <nav>
                         <div className="logo">
-                            <a href="./"><img className="img-logo" src={logoCinza} alt="logo code" /></a>
-                            <a className="logo-name uppercase" href="/">Paulo Adson | Desenvolvedor Front-End</a>
+                            <a onClick={this.toggleClass} href="./">
+                                <img className="img-logo" src={logoCinza} alt="logo code" />
+                            </a>
+                            <a onClick={this.toggleClass}
+                                className="logo-name uppercase" href="/">
+                                Paulo Adson | Desenvolvedor Front-End
+                            </a>
                         </div>
 
                         <div onClick={this.toggleClass} className={active ? 'mobile-menu active' : 'mobile-menu'}>
@@ -32,11 +37,11 @@ export class Header extends React.Component {
                         </div>
 
                         <ul className={active ? 'nav-list uppercase active' : 'nav-list uppercase'}>
-                            <li><a className="menu-links" href="./">Home</a></li>
-                            <li><a className="menu-links" href="/#sobre">Sobre Mim</a></li>
-                            <li><a className="menu-links" href="/projetos">Projetos</a></li>
-                            <li><a className="menu-links" href="/certificados">Certificados</a></li>
-                            <li><a className="menu-links" href="/contato">Contato</a></li>
+                            <li><a onClick={this.toggleClass} className="menu-links" href="./">Home</a></li>
+                            <li><a onClick={this.toggleClass} className="menu-links" href="/#sobre">Sobre Mim</a></li>
+                            <li><a onClick={this.toggleClass} className="menu-links" href="/projetos">Projetos</a></li>
+                            <li><a onClick={this.toggleClass} className="menu-links" href="/certificados">Certificados</a></li>
+                            <li><a onClick={this.toggleClass} className="menu-links" href="/contato">Contato</a></li>
                         </ul>
                     </nav>
                 </header>
