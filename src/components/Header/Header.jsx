@@ -13,6 +13,11 @@ export class Header extends React.Component {
         this.setState({ active: !this.state.active });
     };
 
+    closeMenu = () => {
+        this.setState({ active: false })
+    };
+
+
     render() {
         const { active } = this.state;
         return (
@@ -21,13 +26,10 @@ export class Header extends React.Component {
 
                     <nav>
                         <div className="logo">
-                            <a onClick={this.toggleClass} href="./">
+                            <a href="./">
                                 <img className="img-logo" src={logoCinza} alt="logo code" />
                             </a>
-                            <a onClick={this.toggleClass}
-                                className="logo-name uppercase" href="/">
-                                Paulo Adson | Desenvolvedor Front-End
-                            </a>
+                            <a className="logo-name uppercase" href="/">Paulo Adson | Desenvolvedor Front-End</a>
                         </div>
 
                         <div onClick={this.toggleClass} className={active ? 'mobile-menu active' : 'mobile-menu'}>
@@ -37,11 +39,11 @@ export class Header extends React.Component {
                         </div>
 
                         <ul className={active ? 'nav-list uppercase active' : 'nav-list uppercase'}>
-                            <li><a onClick={this.toggleClass} className="menu-links" href="./">Home</a></li>
-                            <li><a onClick={this.toggleClass} className="menu-links" href="/#sobre">Sobre Mim</a></li>
-                            <li><a onClick={this.toggleClass} className="menu-links" href="/projetos">Projetos</a></li>
-                            <li><a onClick={this.toggleClass} className="menu-links" href="/certificados">Certificados</a></li>
-                            <li><a onClick={this.toggleClass} className="menu-links" href="/contato">Contato</a></li>
+                            <li><a onClick={this.closeMenu} className="menu-links" href="./">Home</a></li>
+                            <li><a onClick={this.closeMenu} className="menu-links" href="/#sobre">Sobre Mim</a></li>
+                            <li><a onClick={this.closeMenu} className="menu-links" href="/projetos">Projetos</a></li>
+                            <li><a onClick={this.closeMenu} className="menu-links" href="/certificados">Certificados</a></li>
+                            <li><a onClick={this.closeMenu} className="menu-links" href="/contato">Contato</a></li>
                         </ul>
                     </nav>
                 </header>
