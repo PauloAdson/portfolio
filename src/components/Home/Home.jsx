@@ -63,6 +63,20 @@ export class Home extends React.Component {
                     <section className="section-projetos">
                         <h3 className="titulo-projetos" id="projetos">Projetos</h3>
                         <span className="projetos_main-title-span">Clique na imagem para ver o projeto completo!</span>
+
+                        <ProjetoBloco class_projeto_img='azevedo-advocacia'
+                            projeto_img={'https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/projetos-bg/azevedo-avocacia.png'}
+                            projeto_img_desc='Imagem da Página Azevedo Advocia e Consultoria Jurídica'
+                            projeto_title='Azevedo Advocia e Consultoria Jurídica'
+                            projeto_desc='Página institucional para Azevedo Advocacia e Consultoria Jurídica, desenvolvida com WordPress, HTML5 e CSS. Conta com um blog para artigos e uma estrutura visual projetada no Figma, garantindo uma navegação intuitiva e uma imagem profissional.'
+                            projeto_linguagens={[
+                                { src: 'https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/html5-logo.png', desc: 'Logo HTML5' },
+                                { src: 'https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/css3-logo.png', desc: 'Logo CSS3' },
+                                { src: 'https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/figma-logo.png', desc: 'Logo Figma' }
+                            ]}
+
+                            projeto_link='https://asazevedo.adv.br/' />
+
                         <ProjetoBloco class_projeto_img='curso-ebd'
                             projeto_img={'https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/projetos-bg/curso-ebd.png'}
                             projeto_img_desc='Imagem da Plataforma de Curso de Escola Bíblica'

@@ -11,6 +11,20 @@ export class ProjetoBloco extends React.Component {
         };
     };
 
+    componentDidMount() {
+        document.addEventListener("keydown", this.handleKeyDown);
+    }
+
+    componentWillUnmount() {
+        document.removeEventListener("keydown", this.handleKeyDown);
+    }
+
+    handleKeyDown = (event) => {
+        if (event.key === "Escape" && this.state.isModalOpen) {
+            this.closeModal();
+        }
+    };
+
     handleImageClick = () => {
         this.setState({ animate: true });
 
@@ -64,7 +78,10 @@ export class ProjetoBloco extends React.Component {
                 {this.state.isModalOpen && (
                     <div className="modal" onClick={this.closeModal}>
                         <span className="close" onClick={this.closeModal}>&times;</span>
-                        <img className="modal-content" src={this.state.modalImageSrc} alt="Imagem do Projeto" />
+
+                        <div className="modal-content-container" onClick={(e) => e.stopPropagation()}>
+                            <img className="modal-content" src={this.state.modalImageSrc} alt="Imagem do Projeto" />
+                        </div>
                     </div>
                 )}
             </>

@@ -10,6 +10,14 @@
     --terciary: #2687a5;
     --branco: #ebebeb;
     --font: 'Inria Sans', sans-serif;
+
+    --cor-primaria: #252525;
+    --cor-primaria-opacidade: #252525bd;
+    --cor-secundaria: #ebebeb;
+    --cor-secundaria-escuro: #91919194;
+    --cor-terciaria: #39586D;
+    --cor-terciaria-media: #2687a5;
+    --cor-terciaria-claro: #4cc2e6;
 }
 
 html,
