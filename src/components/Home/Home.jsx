@@ -34,10 +34,10 @@ export class Home extends React.Component {
                             </div>
 
                             <div className="links-sociais">
-                                <a href="https://www.linkedin.com/in/paulo-adson/">
+                                <a href="https://www.linkedin.com/in/paulo-adson/" target="_blank" rel="noopener">
                                     <img src={logoLinkedin} alt="logo-linkedin" width="42" />
                                 </a>
-                                <a href="https://github.com/PauloAdson">
+                                <a href="https://github.com/PauloAdson" target="_blank" rel="noopener">
                                     <img src={logoGitHub} alt="logo-github" width="42" />
                                 </a>
                             </div>
@@ -53,8 +53,8 @@ export class Home extends React.Component {
                                 desafios estimulantes. No momento, estou imerso nos estudos de React, buscando expandir
                                 meu conhecimento e contribuir para projetos inovadores.
                             </p>
-                            <a class="hover btn-curriculo " href={pdfCurriculo}
-                                download="Currículo de Paulo Adson">Meu
+                            <a class="hover btn-curriculo" href={pdfCurriculo}
+                                target="_blank" rel="noopener">Meu
                                 Currículo<i class="fa-solid fa-download"></i>
                             </a>
                         </div>
@@ -64,7 +64,7 @@ export class Home extends React.Component {
                         <h3 className="titulo-projetos" id="projetos">Projetos</h3>
                         <span className="projetos_main-title-span">Clique na imagem para ver o projeto completo!</span>
                         <ProjetoBloco class_projeto_img='curso-ebd'
-                            projeto_img={'https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/curso-ebd.png'}
+                            projeto_img={'https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/projetos-bg/curso-ebd.png'}
                             projeto_img_desc='Imagem da Plataforma de Curso de Escola Bíblica'
                             projeto_title='Plataforma de Curso | Escola Bíblica'
                             projeto_desc='Uma plataforma online onde os usuários podem se cadastrar, fazer login e acessar conteúdos de curso bíblico. Desenvolvida com React, Node.js e MySQL para garantir interatividade, segurança e performance. O design da interface foi planejado utilizando o Figma, garantindo uma experiência de usuário fluida e intuitiva.'
@@ -77,7 +77,7 @@ export class Home extends React.Component {
                             projeto_link='https://curso-ebd.vercel.app/' />
 
                         <ProjetoBloco class_projeto_img='maratona-vocal'
-                            projeto_img={'https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/maratonavocal.png'}
+                            projeto_img={'https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/projetos-bg/maratonavocal.png'}
                             projeto_img_desc='Imagem página de vendas Maratona Vocal'
                             projeto_title='Página de Vendas | Maratona Vocal'
                             projeto_desc='Uma página de vendas online para a Maratona Vocal. Desenvolvida com React, garantindo alta performance e interatividade para uma navegação fluida e envolvente.'
@@ -89,7 +89,7 @@ export class Home extends React.Component {
                             projeto_link='https://maratonavocal.vercel.app/' />
 
                         <ProjetoBloco class_projeto_img='petlife'
-                            projeto_img={'https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/petlife.png'}
+                            projeto_img={'https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/projetos-bg/petlife.png'}
                             projeto_img_desc='Imagem página de uma clínica veterinária PetLife'
                             projeto_title='PetLife'
                             projeto_desc='Desenvolvida com HTML, CSS e JavaScript, a página oferece uma interface intuitiva e funcional, proporcionando uma experiência agradável e fácil de usar.'

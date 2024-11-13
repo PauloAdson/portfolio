@@ -18,8 +18,21 @@ export class Projetos extends React.Component {
                     </div>
                     <section className="projetos_main-section">
 
+                        <ProjetoBloco class_projeto_img='azevedo-advocacia'
+                            projeto_img={'https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/projetos-bg/azevedo-avocacia.png'}
+                            projeto_img_desc='Imagem da Página Azevedo Advocia e Consultoria Jurídica'
+                            projeto_title='Azevedo Advocia e Consultoria Jurídica'
+                            projeto_desc='Página institucional para Azevedo Advocacia e Consultoria Jurídica, desenvolvida com WordPress, HTML5 e CSS. Conta com um blog para artigos e uma estrutura visual projetada no Figma, garantindo uma navegação intuitiva e uma imagem profissional.'
+                            projeto_linguagens={[
+                                { src: 'https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/html5-logo.png', desc: 'Logo HTML5' },
+                                { src: 'https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/css3-logo.png', desc: 'Logo CSS3' },
+                                { src: 'https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/figma-logo.png', desc: 'Logo Figma' }
+                            ]}
+
+                            projeto_link='https://asazevedo.adv.br/' />
+
                         <ProjetoBloco class_projeto_img='curso-ebd'
-                            projeto_img={'https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/curso-ebd.png'}
+                            projeto_img={'https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/projetos-bg/curso-ebd.png'}
                             projeto_img_desc='Imagem da Plataforma de Curso de Escola Bíblica'
                             projeto_title='Plataforma de Curso | Escola Bíblica'
                             projeto_desc='Uma plataforma online onde os usuários podem se cadastrar, fazer login e acessar conteúdos de curso bíblico. Desenvolvida com React, Node.js e MySQL para garantir interatividade, segurança e performance. O design da interface foi planejado utilizando o Figma, garantindo uma experiência de usuário fluida e intuitiva.'
@@ -32,7 +45,7 @@ export class Projetos extends React.Component {
                             projeto_link='https://curso-ebd.vercel.app/' />
 
                         <ProjetoBloco class_projeto_img='maratona-vocal'
-                            projeto_img={'https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/maratonavocal.png'}
+                            projeto_img={'https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/projetos-bg/maratonavocal.png'}
                             projeto_img_desc='Imagem página de vendas Maratona Vocal'
                             projeto_title='Página de Vendas | Maratona Vocal'
                             projeto_desc='Uma página de vendas online para a Maratona Vocal. Desenvolvida com React, garantindo alta performance e interatividade para uma navegação fluida e envolvente.'
@@ -44,7 +57,7 @@ export class Projetos extends React.Component {
                             projeto_link='https://maratonavocal.vercel.app/' />
 
                         <ProjetoBloco class_projeto_img='petlife'
-                            projeto_img={'https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/petlife.png'}
+                            projeto_img={'https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/projetos-bg/petlife.png'}
                             projeto_img_desc='Imagem página de uma clínica veterinária PetLife'
                             projeto_title='PetLife'
                             projeto_desc='Desenvolvida com HTML, CSS e JavaScript, a página oferece uma interface intuitiva e funcional, proporcionando uma experiência agradável e fácil de usar.'
@@ -56,7 +69,7 @@ export class Projetos extends React.Component {
                             projeto_link='https://petlife-one.vercel.app/' />
 
                         <ProjetoBloco class_projeto_img='consulta-votacao'
-                            projeto_img={'https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/consultarvotacao.png'}
+                            projeto_img={'https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/projetos-bg/consultarvotacao.png'}
                             projeto_img_desc='Imagem página local de votação'
                             projeto_title='Consulta de Local de Votação'
                             projeto_desc='Um site voltado para moradores de Goiânia, que permite consultar rapidamente o local de votação. Utilizando HTML, CSS, PHP e MySQL, a plataforma oferece uma interface simples e funcional para facilitar o acesso a informações eleitorais de maneira eficiente e intuitiva.'

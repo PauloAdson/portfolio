@@ -151,41 +151,49 @@ div.projeto_container-img {
 
 img.projeto_container-content-img {
     width: 100%;
-    transition: transform 3s ease-in;
+    transition: transform 4s ease-in;
     transform: translateY(0);
 }
 
+img.projeto_container-content-img.azevedo-advocacia.animate {
+    transform: translateY(-89%);
+}
+
 img.projeto_container-content-img.curso-ebd.animate {
-    transform: translateY(-61.6%);
+    transform: translateY(-74%);
 }
 
 img.projeto_container-content-img.maratona-vocal.animate {
-    transform: translateY(-90%);
+    transform: translateY(-106.2%);
 }
 
 img.projeto_container-content-img.petlife.animate {
-    transform: translateY(-73.6%);
+    transform: translateY(-87.8%);
 }
 
 img.projeto_container-content-img.consulta-votacao.animate {
-    transform: translateY(-42.5%);
+    transform: translateY(-50.5%);
 }
 
 /* Backgrounds dos Projetos para smartphones*/
 @media screen and (max-width:431px) {
+    img.projeto_container-content-img.azevedo-advocacia.animate {
+        transform: translateY(-85.6%);
+    }
+
     div.projeto_container img.projeto_container-content-img.curso-ebd.animate {
-        transform: translateY(-53%);
+        transform: translateY(-61.4%);
     }
 
     div.projeto_container img.projeto_container-content-img.maratona-vocal.animate {
-        transform: translateY(-87.5%);
+        transform: translateY(-105%);
     }
 
     div.projeto_container img.projeto_container-content-img.petlife.animate {
-        transform: translateY(-67.4%);
+        transform: translateY(-83.4%);
     }
 
     div.projeto_container img.projeto_container-content-img.consulta-votacao.animate {
-        transform: translateY(-29%);
+        transform: translateY(-39.5%);
     }
 }

@@ -5,7 +5,9 @@ export class ProjetoBloco extends React.Component {
     constructor() {
         super();
         this.state = {
-            animate: false
+            animate: false,
+            isModalOpen: false,
+            modalImageSrc: ""
         };
     };
 
@@ -15,7 +17,20 @@ export class ProjetoBloco extends React.Component {
         setTimeout(() => {
             this.setState({ animate: false });
         }, 3600);
+
+
+
+        this.setState({
+            isModalOpen: true,
+            modalImageSrc: this.props.projeto_img
+        });
     };
+
+    closeModal = () => {
+        this.setState({
+            isModalOpen: false
+        });
+    }
 
     render() {
         return (
@@ -45,6 +60,13 @@ export class ProjetoBloco extends React.Component {
                         <a className="projeto_container-link" href={this.props.projeto_link} rel="noopener" target="_blank">Ver Projeto</a>
                     </div>
                 </div>
+
+                {this.state.isModalOpen && (
+                    <div className="modal" onClick={this.closeModal}>
+                        <span className="close" onClick={this.closeModal}>&times;</span>
+                        <img className="modal-content" src={this.state.modalImageSrc} alt="Imagem do Projeto" />
+                    </div>
+                )}
             </>
         );
     }
