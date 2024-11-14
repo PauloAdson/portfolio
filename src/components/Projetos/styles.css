@@ -196,7 +196,7 @@ div.modal-content-container::-webkit-scrollbar-track {
 }
 
 div.modal-content-container::-webkit-scrollbar-thumb {
-    background-color: var(--cor-terciaria-media);
+    background-color: var(--cor-terciaria);
 }
 
 div.modal-content-container::-webkit-scrollbar-thumb:hover {
