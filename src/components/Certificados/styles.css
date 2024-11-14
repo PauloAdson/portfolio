@@ -28,8 +28,8 @@ div.btn-top-down .fa-solid {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #FFFFFF;
-    background-color: var(--bg-principal);
+    color: var(--cor-secundaria);
+    background-color: var(--cor-terciaria);
     border: 1px solid transparent;
     font-size: 2rem;
     border-radius: 50%;
