@@ -22,24 +22,24 @@ nav.footer_nav {
   padding: 60px 0;
 }
 
-div.footer_nav-logo {
+div.footer_nav-links-sociais {
   display: flex;
-  align-items: center;
-  /* height: 50px; */
+  flex-direction: column;
+  gap: 32px;
 }
 
-div.footer_nav-logo img.img-logo {
-  width: 5rem;
-  margin-right: 0.8rem;
-}
-
-div.footer_nav-logo .logo-name {
+div.footer_nav-links-sociais .logo-name {
   color: var(--cor-secundaria);
-  font-size: 1.6rem;
 }
 
-img.footer_nav-logo {
-  width: 60px;
+ul.lista-links-sociais {
+  display: flex;
+  gap: 32px;
+}
+
+ul.lista-links-sociais .fa-brands {
+  color: var(--cor-secundaria);
+
 }
 
 ul.footer_links-container {

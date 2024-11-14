@@ -8,20 +8,32 @@ export class Footer extends React.Component {
             <>
                 <footer>
                     <nav className="footer_nav">
-                        <div className="footer_nav-logo">
-                            <a href="./">
-                                <img className="img-logo" src={logo} alt="logo code" />
-                            </a>
+                        <div className="footer_nav-links-sociais">
+
                             <a className="logo-name uppercase" href="/">Paulo Adson | Desenvolvedor Front-End</a>
+
+                            <ul className="lista-links-sociais">
+                                <a href="https://www.linkedin.com/in/paulo-adson" target="_blank" rel="noopener">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </a>
+
+                                <a href="https://www.instagram.com/oluap_dev/" target="_blank" rel="noopener">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+
+                                <a href="https://www.facebook.com/profile.php?id=100077998817978" target="_blank" rel="noopener">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+                            </ul>
                         </div>
 
                         <ul className="footer_links-container">
                             <h4 className="footer_nav-titulo">Links rápidos</h4>
-                            <li><a href="/">Início</a></li>
-                            <li><a href="/#sobre">Sobre</a></li>
-                            <li><a href="/projetos">Projetos</a></li>
-                            <li><a href="/certificados">Certificados</a></li>
-                            <li><a href="/contato">Contato</a></li>
+                            <li><a href="/" rel="noopener">Início</a></li>
+                            <li><a href="/#sobre" rel="noopener">Sobre</a></li>
+                            <li><a href="/projetos" rel="noopener">Projetos</a></li>
+                            <li><a href="/certificados" rel="noopener">Certificados</a></li>
+                            <li><a href="/contato" rel="noopener">Contato</a></li>
                         </ul>
 
                         <ul className="footer_links-container">
