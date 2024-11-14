@@ -21,7 +21,7 @@ main.home_main {
 .sobre-mim {
     display: flex;
     flex-flow: row wrap;
-    padding: 6rem 2rem;
+    padding: 6rem 0;
     justify-content: center;
     align-items: center;
 }
