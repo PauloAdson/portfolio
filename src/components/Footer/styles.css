@@ -39,7 +39,10 @@ ul.lista-links-sociais {
 
 ul.lista-links-sociais .fa-brands {
   color: var(--cor-secundaria);
+}
 
+ul.lista-links-sociais .fa-brands:hover {
+  opacity: 0.8;
 }
 
 ul.footer_links-container {
