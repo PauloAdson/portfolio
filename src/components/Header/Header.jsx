@@ -1,7 +1,7 @@
 import React from "react";
 import './styles.css';
 import '../../index.css';
-import logoCinza from '../../assets/images/logo-icon-cinza.png';
+import logo from '../../assets/images/logo-icon-cinza.png';
 
 export class Header extends React.Component {
     constructor() {
@@ -27,7 +27,7 @@ export class Header extends React.Component {
                     <nav>
                         <div className="logo">
                             <a href="./">
-                                <img className="img-logo" src={logoCinza} alt="logo code" />
+                                <img className="img-logo" src={logo} alt="logo code" />
                             </a>
                             <a className="logo-name uppercase" href="/">Paulo Adson | Desenvolvedor Front-End</a>
                         </div>
@@ -39,8 +39,8 @@ export class Header extends React.Component {
                         </div>
 
                         <ul className={active ? 'nav-list uppercase active' : 'nav-list uppercase'}>
-                            <li><a onClick={this.closeMenu} className="menu-links" href="./">Home</a></li>
-                            <li><a onClick={this.closeMenu} className="menu-links" href="/#sobre">Sobre Mim</a></li>
+                            <li><a onClick={this.closeMenu} className="menu-links" href="./">Início</a></li>
+                            <li><a onClick={this.closeMenu} className="menu-links" href="/#sobre">Sobre</a></li>
                             <li><a onClick={this.closeMenu} className="menu-links" href="/projetos">Projetos</a></li>
                             <li><a onClick={this.closeMenu} className="menu-links" href="/certificados">Certificados</a></li>
                             <li><a onClick={this.closeMenu} className="menu-links" href="/contato">Contato</a></li>

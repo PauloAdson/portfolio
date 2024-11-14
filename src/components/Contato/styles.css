@@ -8,7 +8,7 @@ main.contato_main {
 }
 
 section#contato {
-    background-color: var(--bg-principal);
+    background-color: var(--cor-terciaria);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,11 +16,10 @@ section#contato {
     padding: 10px 45px;
     width: 500px;
     border-radius: 16px;
-    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
 }
 
 section#contato h2 {
-    color: var(--branco);
+    color: var(--cor-secundaria);
     font-size: 24px;
     margin: 2rem;
 }
@@ -34,7 +33,7 @@ section#contato form {
 form label {
     font-size: 17px;
     margin-bottom: 4px;
-    color: var(--branco);
+    color: var(--cor-secundaria);
 }
 
 form input {
@@ -47,7 +46,7 @@ form input {
 }
 
 form input:focus {
-    background-color: #f1f1f1;
+    background-color: var(--cor-secundaria-escuro);
 }
 
 form textarea {
@@ -61,23 +60,23 @@ form textarea {
 }
 
 form textarea:focus {
-    background-color: #e6e4e4;
+    background-color: var(--cor-secundaria-escuro);
 }
 
 form button {
-    background: var(--branco);
-    color: var(--preto);
+    background: var(--cor-secundaria);
+    color: var(--cor-primaria);
     padding: 15px;
     font-size: 16px;
     cursor: pointer;
-    border: 1px solid var(--branco);
+    border: 1px solid var(--cor-secundaria);
     border-radius: 16px;
     margin-bottom: 20px;
     transition: 0.5s;
 }
 
 form button:hover {
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: var(--cor-secundaria-escuro);
 }
 
 /* Smartphones */

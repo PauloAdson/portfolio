@@ -1,7 +1,7 @@
 header {
     /* margin-bottom: 6rem; */
     width: 100%;
-    background-color: var(--bg-principal);
+    background-color: var(--cor-terciaria);
     margin-left: auto;
     margin-right: auto;
     padding: 0 2rem;
@@ -19,16 +19,12 @@ header nav div .img-logo {
 }
 
 .logo-name {
-    color: var(--branco);
+    color: var(--cor-secundaria);
     font-size: 1.6rem;
 }
 
-.uppercase {
-    text-transform: uppercase;
-}
-
 li a.menu-links {
-    color: var(--branco);
+    color: var(--cor-secundaria);
     font-weight: 600;
     text-decoration: none;
     transition: 0.3s;
@@ -37,7 +33,7 @@ li a.menu-links {
 }
 
 li a.menu-links:hover {
-    opacity: 0.7;
+    opacity: 0.8;
     transition: 0.3s;
 }
 
@@ -72,7 +68,7 @@ header nav {
     height: 0.2rem;
     margin: 0.8rem;
     transition: 0.3s;
-    background-color: var(--branco);
+    background-color: var(--cor-secundaria);
 }
 
 @media screen and (max-width: 999px) {
@@ -94,7 +90,7 @@ header nav {
         right: 0;
         height: calc(100vh - 85px);
         width: 50vw;
-        background: var(--bg-principal);
+        background: var(--cor-terciaria);
         flex-direction: column;
         align-items: center;
         justify-content: space-around;

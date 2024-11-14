@@ -7,10 +7,11 @@ main.home_main {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
+    padding: 0 2rem;
 }
 
 .background-sobre .text-uppercase {
-    color: var(--branco);
+    color: var(--cor-secundaria);
 }
 
 .background-sobre .bold {
@@ -26,7 +27,7 @@ main.home_main {
 }
 
 .background-sobre {
-    background: var(--bg-principal);
+    background: var(--cor-terciaria);
     position: relative;
     width: 32rem;
     height: 53.2rem;
@@ -39,19 +40,20 @@ main.home_main {
 .foto-de-paulo {
     margin-top: 4rem;
     margin-bottom: 4.9rem;
+    width: 190px;
 }
 
 .bold {
     font-weight: 700;
     font-size: 1.8rem;
-    color: var(--branco);
+    color: var(--cor-secundaria);
 }
 
 .logos-linguagens {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: var(--branco);
+    background-color: var(--cor-secundaria-escuro);
     padding: 0.8rem 0;
     margin-top: 0.9rem;
     margin-left: 2.4rem;
@@ -60,7 +62,7 @@ main.home_main {
 }
 
 .links-sociais {
-    background: var(--branco);
+    background: var(--cor-secundaria-escuro);
     position: absolute;
     bottom: 0;
     padding-top: 1rem;
@@ -92,10 +94,10 @@ div.texto-sobre a.btn-curriculo {
     justify-content: space-between;
     box-sizing: border-box;
 
-    border: 1px solid var(--terciary);
+    border: 1px solid var(--cor-terciaria);
     border-radius: 2.6rem;
 
-    color: var(--preto);
+    color: var(--cor-primaria);
     font-weight: 600;
     max-width: 350px;
     width: 100%;
@@ -104,18 +106,18 @@ div.texto-sobre a.btn-curriculo {
 }
 
 div.texto-sobre a.btn-curriculo:hover {
-    background-color: var(--bg-principal);
-    color: var(--branco);
+    background-color: var(--cor-terciaria);
+    color: var(--cor-secundaria);
     transition: 0.5s;
 }
 
 .btn-curriculo:hover .fa-download {
-    color: var(--branco);
+    color: var(--cor-secundaria);
     transition: 0.5s;
 }
 
 .fa-download {
-    color: var(--terciary);
+    color: var(--cor-terciaria);
     transition: 0.5s;
 }
 
@@ -213,7 +215,7 @@ section .projetos p {
     width: 100%;
     margin: 0 auto;
     gap: 4rem;
-    padding: 0 2rem 6rem 2rem;
+    padding: 6rem 0;
     box-sizing: border-box;
 }
 
@@ -222,22 +224,22 @@ a.btn-mais-projetos {
     align-items: center;
     justify-content: center;
 
-    background-color: var(--terciary);
+    background-color: var(--cor-terciaria);
     width: 304px;
     height: 52px;
     border-radius: 26px;
-    color: var(--branco);
+    color: var(--cor-secundaria);
     font-weight: 600;
     margin: 0 auto;
-    
+    transition: 900ms;
 }
 
 a.btn-mais-projetos:hover {
-    background-color: var(--secundary);
+    background-color: var(--cor-terciaria-claro);
 }
 
 a.btn-mais-projetos:active {
-    background-color: var(--bg-principal);
+    background-color: var(--cor-terciaria-escuro);
 }
 
 @media screen and (min-width:320px) and (max-width: 767px) {

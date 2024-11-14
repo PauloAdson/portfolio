@@ -2,22 +2,22 @@
 
 :root {
     font-size: 62.5%;
-    --preto: #252525;
-    --cinza-claro: #979797be;
-    --bg-principal: #39586D;
-    --secundary: #4cc2e6;
-    --secundary-claro: #e7f9ff;
-    --terciary: #2687a5;
-    --branco: #ebebeb;
     --font: 'Inria Sans', sans-serif;
 
     --cor-primaria: #252525;
+    --cor-primaria-claro: #979797be;
     --cor-primaria-opacidade: #252525bd;
-    --cor-secundaria: #ebebeb;
-    --cor-secundaria-escuro: #91919194;
-    --cor-terciaria: #39586D;
-    --cor-terciaria-media: #2687a5;
+
+    --cor-secundaria: #FFFFFF;
+    --cor-secundaria-escuro: #ebebeb;
+
+    --cor-terciaria: #2687a5;
+    --cor-terciaria-escuro: #39586D;
     --cor-terciaria-claro: #4cc2e6;
+}
+
+.uppercase {
+    text-transform: uppercase;
 }
 
 html,
