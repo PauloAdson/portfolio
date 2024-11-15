@@ -5,8 +5,7 @@
 npm start
 ```
 
-<img src="https://github.com/user-attachments/assets/627ecf8c-d854-4026-be77-d4831ee0617f" alt="Página home">
-
+<img src="https://github.com/user-attachments/assets/627ecf8c-d854-4026-be77-d4831ee0617f](https://github.com/user-attachments/assets/dbb075b4-93c1-47de-8079-cb69e9036e84" alt="Página home">
 
 ## 📚 Documentação
 - [Documentação React](https://pt-br.legacy.reactjs.org/docs/getting-started.html)
