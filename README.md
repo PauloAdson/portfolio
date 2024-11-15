@@ -4,6 +4,7 @@
 ```
 npm start
 ```
+<img src="https://github.com/user-attachments/assets/822a76fd-715b-470f-a539-96ef3ef18380" alt="Página Home">
 ![portfolio-img](https://github.com/user-attachments/assets/822a76fd-715b-470f-a539-96ef3ef18380)
 
 
