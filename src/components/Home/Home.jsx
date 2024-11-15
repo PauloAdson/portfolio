@@ -45,7 +45,7 @@ export class Home extends React.Component {
 
                         <div id="sobre" className="texto-sobre">
                             <h2>Olá</h2>
-                            <p>
+                            <p className="content-sobre">
                                 Sou um Desenvolvedor Front-End apaixonado por transformar conceitos em experiências visuais
                                 incríveis. Minha abordagem une habilidades técnicas sólidas
                                 com um toque de criatividade, resultando em projetos envolventes e intuitivos. Estou

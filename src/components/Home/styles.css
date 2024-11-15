@@ -86,7 +86,7 @@ main.home_main {
 
 div.texto-sobre p {
     text-align: justify;
-    line-height: 2.2rem;
+    line-height: 32px;
 }
 
 div.texto-sobre a.btn-curriculo {
@@ -125,14 +125,14 @@ div.texto-sobre a.btn-curriculo:hover {
     .sobre-mim {
         align-items: center;
         flex-flow: column wrap;
-        gap: 30px;
+        gap: 60px;
     }
 
     .texto-sobre h2 {
         text-align: center;
     }
 
-    div#sobre p {
+    div.texto-sobre p {
         text-align: center;
     }
 
@@ -158,12 +158,15 @@ div.texto-sobre a.btn-curriculo:hover {
         margin-left: auto;
         margin-right: auto;
         margin-top: 0px;
-
     }
 
     section .texto-sobre {
         text-align: center;
         width: 90%;
+    }
+
+    div.texto-sobre p.content-sobre {
+        text-align: justify;
     }
 }
 
