@@ -18,6 +18,19 @@ export class Projetos extends React.Component {
                     </div>
                     <section className="projetos_main-section">
 
+                        <ProjetoBloco class_projeto_img='landing-page'
+                            projeto_img={'https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/projetos-bg/landing-page.png'}
+                            projeto_img_desc='Imagem da Landing Page'
+                            projeto_title='Landing Page'
+                            projeto_desc='Desenvolvida com HTML5 e CSS. Créditos: Design feito por Animaapp.com'
+                            projeto_linguagens={[
+                                { src: 'https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/html5-logo.png', desc: 'Logo HTML5' },
+                                { src: 'https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/css3-logo.png', desc: 'Logo CSS3' },
+                                { src: 'https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/figma-logo.png', desc: 'Logo Figma' }
+                            ]}
+
+                            projeto_link='https://pauloadson.github.io/landing-page/' />
+
                         <ProjetoBloco class_projeto_img='azevedo-advocacia'
                             projeto_img={'https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/projetos-bg/azevedo-avocacia.png'}
                             projeto_img_desc='Imagem da Página Azevedo Advocia e Consultoria Jurídica'
