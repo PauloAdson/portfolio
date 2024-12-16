@@ -42,7 +42,7 @@ export class Header extends React.Component {
                             <li><a onClick={this.closeMenu} className="menu-links" href="./">Início</a></li>
                             <li><a onClick={this.closeMenu} className="menu-links" href="/#sobre">Sobre</a></li>
                             <li><a onClick={this.closeMenu} className="menu-links" href="/projetos">Projetos</a></li>
-                            <li><a onClick={this.closeMenu} className="menu-links" href="/certificados">Certificados</a></li>
+                            {/* <li><a onClick={this.closeMenu} className="menu-links" href="/certificados">Certificados</a></li> */}
                             <li><a onClick={this.closeMenu} className="menu-links" href="/contato">Contato</a></li>
                         </ul>
                     </nav>
