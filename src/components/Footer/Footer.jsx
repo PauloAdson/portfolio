@@ -32,7 +32,6 @@ export class Footer extends React.Component {
                             <li><a href="/" rel="noopener">Início</a></li>
                             <li><a href="/#sobre" rel="noopener">Sobre</a></li>
                             <li><a href="/projetos" rel="noopener">Projetos</a></li>
-                            {/* <li><a href="/certificados" rel="noopener">Certificados</a></li> */}
                             <li><a href="/contato" rel="noopener">Contato</a></li>
                         </ul>
 
