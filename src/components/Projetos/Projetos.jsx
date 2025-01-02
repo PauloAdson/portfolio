@@ -19,6 +19,20 @@ export class Projetos extends React.Component {
                     <section className="projetos_main-section">
 
                         <ProjetoBloco class_projeto_img='landing-page'
+                            projeto_img={'https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/projetos-bg/aulas-de-musica.png'}
+                            projeto_img_desc='Imagem da Página Aulas de Música'
+                            projeto_title='Aulas de Música'
+                            projeto_desc='Desenvolvi o site utilizando React, começando pelo protótipo no Figma e até criando a logo.'
+                            projeto_linguagens={[
+                                { src: 'https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/react-logo.png', desc: 'Logo React' },
+                                { src: 'https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/html5-logo.png', desc: 'Logo HTML5' },
+                                { src: 'https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/css3-logo.png', desc: 'Logo CSS3' },
+                                { src: 'https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/figma-logo.png', desc: 'Logo Figma' }
+                            ]}
+
+                            projeto_link='https://paulo-aulas-de-musica.vercel.app/' />
+
+                        <ProjetoBloco class_projeto_img='landing-page'
                             projeto_img={'https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/projetos-bg/landing-page.png'}
                             projeto_img_desc='Imagem da Landing Page'
                             projeto_title='Landing Page'
