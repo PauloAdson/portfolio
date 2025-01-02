@@ -10,6 +10,7 @@ import pdfCurriculo from '../../assets/PauloAdson-Curriculo.pdf'
 import { Header } from "../Header/Header";
 import { Footer } from "../Footer/Footer";
 import { ProjetoBloco } from "../Projetos/ProjetoBloco";
+import fotoDePaulo from '../../assets/images/paulo-adson.png';
 
 export class Home extends React.Component {
     render() {
@@ -21,7 +22,7 @@ export class Home extends React.Component {
                     <section className="sobre-mim">
 
                         <div className="background-sobre">
-                            <img loading="lazy" className="foto-de-paulo" src="https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/foto-perfil-paulo-adson.png" alt="Foto de Paulo Adson" />
+                            <img loading="lazy" className="foto-de-paulo" src={fotoDePaulo} alt="Foto de Paulo Adson" />
                             <h1 className="bold">Paulo Adson <br />
                                 <span className="text-uppercase"> Desenvoldor Front-End</span>
                             </h1>
@@ -77,7 +78,7 @@ export class Home extends React.Component {
                             ]}
 
                             projeto_link='https://paulo-aulas-de-musica.vercel.app/' />
-                            
+
                         <ProjetoBloco class_projeto_img='landing-page'
                             projeto_img={'https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/projetos-bg/landing-page.png'}
                             projeto_img_desc='Imagem da Landing Page'
