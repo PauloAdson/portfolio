@@ -18,6 +18,19 @@ export class Projetos extends React.Component {
                     </div>
                     <section className="projetos_main-section">
 
+                        <ProjetoBloco class_projeto_img='furlan-solucoes'
+                            projeto_img={'https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/site-furlan-desktop.png'}
+                            projeto_img_desc='Imagem da Página Furlan Soluções Financeiras'
+                            projeto_title='Furlan Soluções Financeiras'
+                            projeto_desc='Desenvolvi o site utilizando HTML, CSS, Wordpress por preferência do cliente,começando pelo protótipo no Figma.'
+                            projeto_linguagens={[
+                                { src: 'https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/html5-logo.png', desc: 'Logo HTML5' },
+                                { src: 'https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/css3-logo.png', desc: 'Logo CSS3' },
+                                { src: 'https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/figma-logo.png', desc: 'Logo Figma' }
+                            ]}
+
+                            projeto_link='https://furlansolucoesfinanceiras.com.br/' />
+
                         <ProjetoBloco class_projeto_img='landing-page'
                             projeto_img={'https://raw.githubusercontent.com/PauloAdson/portfolio/refs/heads/main/src/assets/images/projetos-bg/aulas-de-musica.png'}
                             projeto_img_desc='Imagem da Página Aulas de Música'
