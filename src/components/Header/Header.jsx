@@ -1,7 +1,7 @@
 import React from "react";
 import './styles.css';
 import '../../index.css';
-import logo from '../../assets/images/logo.png';
+import logo from '../../assets/images/logo-pauloadson.png';
 
 export class Header extends React.Component {
     constructor() {
@@ -25,12 +25,11 @@ export class Header extends React.Component {
                 <header className="menu-principal">
 
                     <nav>
-                        <div className="logo">
-                            <a href="./">
-                                <img className="img-logo" src={logo} alt="Logo Paulo Adson" />
-                            </a>
-                            {/* <a className="logo-name uppercase" href="/">Paulo Adson | Desenvolvedor Front-End</a> */}
-                        </div>
+
+                        <a href="./">
+                            <img className="img-logo" src={logo} alt="Logo Paulo Adson" />
+                        </a>
+
 
                         <div onClick={this.toggleClass} className={active ? 'mobile-menu active' : 'mobile-menu'}>
                             <div className="line1"></div>

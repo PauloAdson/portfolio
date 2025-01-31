@@ -4,24 +4,25 @@ header {
     background-color: var(--cor-terciaria);
     margin-left: auto;
     margin-right: auto;
-    padding: 0 2rem;
+    padding: 3rem 2rem;
     box-sizing: border-box;
 }
 
-.logo {
+header nav {
+    max-width: 1640px;
+    height: 100px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
+    flex-direction: row;
+    box-sizing: border-box;
+    margin: 0 auto;
 }
 
-header nav div .img-logo {
-    width: 160px;
-    margin-right: 0.8rem;
+.img-logo {
+    max-width: 300px;
+    width: 100%;
 }
-
-/* .logo-name {
-    color: var(--cor-secundaria);
-    font-size: 1.6rem;
-} */
 
 li a.menu-links {
     color: var(--cor-secundaria);
@@ -37,16 +38,6 @@ li a.menu-links:hover {
     transition: 0.3s;
 }
 
-header nav {
-    max-width: 1640px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
-    box-sizing: border-box;
-    margin: 0 auto;
-    height: 200px;
-}
 
 .nav-list {
     list-style: none;
@@ -76,17 +67,10 @@ header nav {
         overflow-x: hidden;
     }
 
-    header nav {
-        height: 200px;
-    }
-
-    .img-logo {
-        width: 3rem;
-    }
 
     .nav-list {
         position: absolute;
-        top: 89.4px;
+        top: 159px;
         right: 0;
         height: calc(100vh - 85px);
         width: 50vw;
@@ -143,19 +127,11 @@ header nav {
 
 /* Smartphone Geral */
 @media screen and (min-width:320px) and (max-width: 767px) {
-    header nav div .img-logo {
-        width: 100px;
+
+    .img-logo {
+        max-width: 200px;
+        width: 100%;
     }
-
-
-    header nav {
-        height: 140px;
-    }
-
-    /* .logo-name {
-        font-size: 1.4rem;
-        font-weight: 600;
-    } */
 
     .menu-links {
         font-size: 1.4rem;

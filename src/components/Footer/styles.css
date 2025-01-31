@@ -28,20 +28,9 @@ div.footer_nav-links-sociais {
   gap: 32px;
 }
 
-div.footer_nav-links-sociais .logo-name {
-  color: var(--cor-secundaria);
-}
-
-.img-logo {
-  width: 160px;
-}
 
 /* Smartphone Geral */
-@media screen and (min-width:320px) and (max-width: 767px) {
-  div .img-logo {
-    width: 100px;
-  }
-}
+@media screen and (min-width:320px) and (max-width: 767px) {}
 
 ul.lista-links-sociais {
   display: flex;
