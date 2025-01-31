@@ -12,7 +12,7 @@ footer {
 nav.footer_nav {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  /* align-items: baseline; */
   flex-wrap: wrap;
   box-sizing: border-box;
   gap: 62px;
