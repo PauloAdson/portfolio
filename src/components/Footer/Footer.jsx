@@ -1,6 +1,6 @@
 import React from "react";
 import './styles.css';
-import logo from '../../assets/images/logo-icon-cinza.png'
+import logo from '../../assets/images/logo.png'
 
 export class Footer extends React.Component {
     render() {
@@ -10,7 +10,12 @@ export class Footer extends React.Component {
                     <nav className="footer_nav">
                         <div className="footer_nav-links-sociais">
 
-                            <a className="logo-name uppercase" href="/">Paulo Adson | Desenvolvedor Front-End</a>
+                            <div className="logo">
+                                <a href="./">
+                                    <img className="img-logo" src={logo} alt="Logo Paulo Adson" />
+                                </a>
+                                {/* <a className="logo-name uppercase" href="/">Paulo Adson | Desenvolvedor Front-End</a> */}
+                            </div>
 
                             <ul className="lista-links-sociais">
                                 <a href="https://www.linkedin.com/in/paulo-adson" target="_blank" rel="noopener">

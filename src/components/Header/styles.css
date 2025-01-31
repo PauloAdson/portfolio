@@ -14,14 +14,14 @@ header {
 }
 
 header nav div .img-logo {
-    width: 5rem;
+    width: 160px;
     margin-right: 0.8rem;
 }
 
-.logo-name {
+/* .logo-name {
     color: var(--cor-secundaria);
     font-size: 1.6rem;
-}
+} */
 
 li a.menu-links {
     color: var(--cor-secundaria);
@@ -45,7 +45,7 @@ header nav {
     flex-direction: row;
     box-sizing: border-box;
     margin: 0 auto;
-    height: 80px;
+    height: 200px;
 }
 
 .nav-list {
@@ -77,7 +77,7 @@ header nav {
     }
 
     header nav {
-        height: 90px;
+        height: 200px;
     }
 
     .img-logo {
@@ -143,14 +143,19 @@ header nav {
 
 /* Smartphone Geral */
 @media screen and (min-width:320px) and (max-width: 767px) {
-    .img-logo {
-        display: none;
+    header nav div .img-logo {
+        width: 100px;
     }
 
-    .logo-name {
+
+    header nav {
+        height: 140px;
+    }
+
+    /* .logo-name {
         font-size: 1.4rem;
         font-weight: 600;
-    }
+    } */
 
     .menu-links {
         font-size: 1.4rem;

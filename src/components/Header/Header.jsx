@@ -1,7 +1,7 @@
 import React from "react";
 import './styles.css';
 import '../../index.css';
-import logo from '../../assets/images/logo-icon-cinza.png';
+import logo from '../../assets/images/logo.png';
 
 export class Header extends React.Component {
     constructor() {
@@ -27,9 +27,9 @@ export class Header extends React.Component {
                     <nav>
                         <div className="logo">
                             <a href="./">
-                                <img className="img-logo" src={logo} alt="logo code" />
+                                <img className="img-logo" src={logo} alt="Logo Paulo Adson" />
                             </a>
-                            <a className="logo-name uppercase" href="/">Paulo Adson | Desenvolvedor Front-End</a>
+                            {/* <a className="logo-name uppercase" href="/">Paulo Adson | Desenvolvedor Front-End</a> */}
                         </div>
 
                         <div onClick={this.toggleClass} className={active ? 'mobile-menu active' : 'mobile-menu'}>
