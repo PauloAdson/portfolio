@@ -47,8 +47,7 @@ export class Home extends React.Component {
                         <div id="sobre" className="texto-sobre">
                             <h2>Olá</h2>
                             <p className="content-sobre">
-                                Sou um Desenvolvedor Front-End apaixonado por transformar conceitos em experiências visuais
-                                incríveis. Minha abordagem une habilidades técnicas sólidas
+                                Sou um Desenvolvedor Front-End focado em criar interfaces funcionais e bem estruturadas.. Minha abordagem une habilidades técnicas sólidas
                                 com um toque de criatividade, resultando em projetos envolventes e intuitivos. Estou
                                 constantemente em busca de novas oportunidades para aprimorar minhas habilidades e enfrentar
                                 desafios estimulantes. No momento, estou imerso nos estudos de React, buscando expandir
