@@ -13,13 +13,17 @@ main.projetos_main {
     align-items: center;
     box-sizing: border-box;
     gap: 6rem;
-    padding: 6rem 2rem;
+    padding: 0 2rem 6rem 2rem;
 }
 
 div.projetos_main-container-title {
     display: flex;
     flex-direction: column;
     gap: 2.6rem;
+}
+
+h1.projetos_main-title {
+    font-size: 3.2rem;
 }
 
 h1.projetos_main-title, span.projetos_main-title-span {

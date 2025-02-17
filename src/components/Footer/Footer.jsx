@@ -35,8 +35,8 @@ export class Footer extends React.Component {
                         <ul className="footer_links-container">
                             <h4 className="footer_nav-titulo">Links rápidos</h4>
                             <li><a href="/" rel="noopener">Início</a></li>
-                            <li><a href="/#sobre" rel="noopener">Sobre</a></li>
-                            <li><a href="/projetos" rel="noopener">Projetos</a></li>
+                            <li><a href="/portfolio" rel="noopener">Portfólio</a></li>
+                            <li><a href="/portfolio/#sobre" rel="noopener">Sobre</a></li>
                             <li><a href="/contato" rel="noopener">Contato</a></li>
                         </ul>
 
