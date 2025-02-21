@@ -8,5 +8,6 @@ npm start
 
 ## 📚 Documentação
 - [Documentação React](https://pt-br.legacy.reactjs.org/docs/getting-started.html)
+- [Documentação Vite](https://pt.vite.dev/guide/)
 - [Documentação React Router Dom](https://www.npmjs.com/package/react-router-dom)
 - [Documentação GitHub](https://docs.github.com/pt)
